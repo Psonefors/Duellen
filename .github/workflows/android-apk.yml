@@ -22,12 +22,15 @@ jobs:
         with:
           channel: stable
 
+      
       - name: Ordna projektfiler
         run: |
-          mkdir -p lib assets/web assets/data
+          mkdir -p lib assets/web assets/data assets/audio
           cp main.dart game.dart lib/
           cp player.html assets/web/
           cp questions.json assets/data/
+          cp next.wav reveal.wav win.wav tick.wav assets/audio/
+
 
       - name: Skapa Android-projekt
         run: flutter create --platforms android --project-name duellen --no-pub .
