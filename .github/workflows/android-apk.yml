@@ -29,8 +29,7 @@ jobs:
           cp main.dart game.dart lib/
           cp player.html assets/web/
           cp questions.json assets/data/
-          cp next.wav reveal.wav win.wav tick.wav assets/audio/
-
+          cp next.wav reveal.wav win.wav tick.wav answer_music.wav assets/audio/
 
       - name: Skapa Android-projekt
         run: flutter create --platforms android --project-name duellen --no-pub .
