@@ -1,0 +1,590 @@
+[
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har huvudstaden Oslo?",
+    "answer": "Norge",
+    "options": [
+      "Norge",
+      "Finland",
+      "Danmark",
+      "Island"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "I vilket land ligger staden Barcelona?",
+    "answer": "Spanien",
+    "options": [
+      "Spanien",
+      "Portugal",
+      "Italien",
+      "Frankrike"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken är Sveriges största sjö till ytan?",
+    "answer": "Vänern",
+    "options": [
+      "Vänern",
+      "Vättern",
+      "Mälaren",
+      "Hjälmaren"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken världsdel ligger Kenya i?",
+    "answer": "Afrika",
+    "options": [
+      "Afrika",
+      "Asien",
+      "Europa",
+      "Sydamerika"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken flod rinner genom Paris?",
+    "answer": "Seine",
+    "options": [
+      "Seine",
+      "Themsen",
+      "Donau",
+      "Rhen"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har en lönnlövssymbol på sin flagga?",
+    "answer": "Kanada",
+    "options": [
+      "Kanada",
+      "Nya Zeeland",
+      "Australien",
+      "USA"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har huvudstaden Reykjavik?",
+    "answer": "Island",
+    "options": [
+      "Island",
+      "Irland",
+      "Norge",
+      "Estland"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år föll Berlinmuren?",
+    "answer": "1989",
+    "options": [
+      "1989",
+      "1979",
+      "1991",
+      "1995"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket skepp sjönk på sin jungfruresa 1912?",
+    "answer": "Titanic",
+    "options": [
+      "Titanic",
+      "Vasa",
+      "Britannic",
+      "Queen Mary"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år inleddes andra världskriget i Europa?",
+    "answer": "1939",
+    "options": [
+      "1939",
+      "1914",
+      "1941",
+      "1945"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken egyptisk drottning är känd för sina relationer med Julius Caesar och Marcus Antonius?",
+    "answer": "Kleopatra",
+    "options": [
+      "Kleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Arsinoe"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket land byggde den kinesiska muren?",
+    "answer": "Kina",
+    "options": [
+      "Kina",
+      "Japan",
+      "Mongoliet",
+      "Indien"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken svensk kung stupade vid Lützen 1632?",
+    "answer": "Gustav II Adolf",
+    "options": [
+      "Gustav II Adolf",
+      "Karl XII",
+      "Gustav Vasa",
+      "Oscar II"
+    ]
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vad hette skeppet som sjönk i Stockholm 1628?",
+    "answer": "Vasa",
+    "options": [
+      "Vasa",
+      "Kronan",
+      "Götheborg",
+      "Äpplet"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter trollkarlen som går på Hogwarts?",
+    "answer": "Harry Potter",
+    "options": [
+      "Harry Potter",
+      "Frodo Bagger",
+      "Percy Jackson",
+      "Bilbo Bagger"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vilken filmserie har figuren Darth Vader?",
+    "answer": "Star Wars",
+    "options": [
+      "Star Wars",
+      "Star Trek",
+      "Dune",
+      "Alien"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter cowboyen i Toy Story?",
+    "answer": "Woody",
+    "options": [
+      "Woody",
+      "Buzz",
+      "Andy",
+      "Rex"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vilken film innehåller sången Let It Go?",
+    "answer": "Frost",
+    "options": [
+      "Frost",
+      "Lejonkungen",
+      "Moana",
+      "Trassel"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "I vilken svensk tv-serie finns karaktären Ove Sundberg?",
+    "answer": "Solsidan",
+    "options": [
+      "Solsidan",
+      "Bonusfamiljen",
+      "Vår tid är nu",
+      "Svensson, Svensson"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter lejonungen i Lejonkungen?",
+    "answer": "Simba",
+    "options": [
+      "Simba",
+      "Mufasa",
+      "Scar",
+      "Timon"
+    ]
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem spelar huvudrollen Jack i filmen Titanic (1997)?",
+    "answer": "Leonardo DiCaprio",
+    "options": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Matt Damon",
+      "Tom Cruise"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken planet är störst i solsystemet?",
+    "answer": "Jupiter",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Saturnus",
+      "Neptunus"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har guld?",
+    "answer": "Au",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Cu"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken gas tar växter upp vid fotosyntes?",
+    "answer": "Koldioxid",
+    "options": [
+      "Koldioxid",
+      "Syre",
+      "Kväve",
+      "Helium"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Hur många ben har en spindel?",
+    "answer": "8",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad kallas vatten i fast form?",
+    "answer": "Is",
+    "options": [
+      "Is",
+      "Ånga",
+      "Dimma",
+      "Moln"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad heter vår galax?",
+    "answer": "Vintergatan",
+    "options": [
+      "Vintergatan",
+      "Andromedagalaxen",
+      "Triangelgalaxen",
+      "Magellanska molnet"
+    ]
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket organ pumpar runt blodet i kroppen?",
+    "answer": "Hjärtat",
+    "options": [
+      "Hjärtat",
+      "Lungan",
+      "Levern",
+      "Njuren"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många spelare per lag finns på planen i vanlig fotboll?",
+    "answer": "11",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "I vilken sport används puck?",
+    "answer": "Ishockey",
+    "options": [
+      "Ishockey",
+      "Handboll",
+      "Basket",
+      "Innebandy"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad kallas ett slag under par på ett golfhål?",
+    "answer": "Birdie",
+    "options": [
+      "Birdie",
+      "Bogey",
+      "Eagle",
+      "Albatross"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många ringar finns i den olympiska symbolen?",
+    "answer": "5",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport förknippas med Wimbledon?",
+    "answer": "Tennis",
+    "options": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Rugby"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport utövas i Vasaloppet?",
+    "answer": "Längdskidåkning",
+    "options": [
+      "Längdskidåkning",
+      "Skidskytte",
+      "Alpint",
+      "Skridskor"
+    ]
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många poäng ger ett straffkast i basket?",
+    "answer": "1",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad heter Pippis häst?",
+    "answer": "Lilla Gubben",
+    "options": [
+      "Lilla Gubben",
+      "Blixten",
+      "Pricken",
+      "Socker"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket instrument har vanligtvis 88 tangenter?",
+    "answer": "Piano",
+    "options": [
+      "Piano",
+      "Gitarr",
+      "Trumpet",
+      "Fiol"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket grundämne har kemisk beteckning O?",
+    "answer": "Syre",
+    "options": [
+      "Syre",
+      "Väte",
+      "Kol",
+      "Kväve"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken månad kommer direkt efter september?",
+    "answer": "Oktober",
+    "options": [
+      "Oktober",
+      "November",
+      "Augusti",
+      "December"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad heter Sveriges nationaldag?",
+    "answer": "6 juni",
+    "options": [
+      "6 juni",
+      "1 maj",
+      "24 december",
+      "21 juni"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken färg får du när du blandar blått och gult i vanlig färglära?",
+    "answer": "Grönt",
+    "options": [
+      "Grönt",
+      "Lila",
+      "Orange",
+      "Brunt"
+    ]
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket djur producerar honung?",
+    "answer": "Honungsbi",
+    "options": [
+      "Honungsbi",
+      "Humla",
+      "Geting",
+      "Fjäril"
+    ]
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många landskap finns i Sverige?",
+    "answer": "25",
+    "options": []
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många länder gränsar direkt till Sverige på land?",
+    "answer": "2",
+    "options": []
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år sjönk regalskeppet Vasa?",
+    "answer": "1628",
+    "options": []
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år landade de första människorna på månen?",
+    "answer": "1969",
+    "options": []
+  },
+  {
+    "category": "Film & TV",
+    "kind": "number",
+    "question": "Vilket år hade den första Star Wars-filmen biopremiär?",
+    "answer": "1977",
+    "options": []
+  },
+  {
+    "category": "Film & TV",
+    "kind": "number",
+    "question": "Hur många säsonger har tv-serien Friends?",
+    "answer": "10",
+    "options": []
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många kromosomer finns normalt i en mänsklig kroppscell?",
+    "answer": "46",
+    "options": []
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många grundämnen finns i det periodiska systemet (erkända 2026)?",
+    "answer": "118",
+    "options": []
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många meter är ett maraton (avrundat till närmaste meter)?",
+    "answer": "42195",
+    "options": []
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många minuter är en ordinarie fotbollsmatch utan tilläggstid?",
+    "answer": "90",
+    "options": []
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många kort finns i en vanlig kortlek utan jokrar?",
+    "answer": "52",
+    "options": []
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sidor har en vanlig tärning?",
+    "answer": "6",
+    "options": []
+  }
+]
