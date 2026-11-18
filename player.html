@@ -1,0 +1,107 @@
+<!doctype html><html lang="sv"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>DUELLEN</title>
+<style>
+:root{font-family:system-ui,sans-serif;color:#f8f9ff;background:#0c1120}*{box-sizing:border-box}body{margin:0 auto;padding:18px;max-width:640px}h1{font-size:32px;margin:0}h2{font-size:24px}p{line-height:1.5}.card{background:#1a233b;border:1px solid #353d60;border-radius:20px;padding:20px;margin:14px 0}.accent{color:#d6ff61}.sub{color:#bcc5dc}.row{display:flex;justify-content:space-between;gap:8px;align-items:center}.tag{background:#364161;padding:7px;border-radius:9px;font-size:13px}.hidden{display:none}input{width:100%;background:#121932;border:1px solid #536084;border-radius:12px;padding:14px;color:#fff;font-size:19px}button{border:0;border-radius:13px;padding:15px;background:#d6ff61;color:#101325;font-weight:800;font-size:17px;width:100%;cursor:pointer}button:disabled{opacity:.5}.choices{display:grid;grid-template-columns:1fr 1fr;gap:10px}.choices button{min-height:84px}.bets{display:flex;gap:9px}.bets button{flex:1}.selected{outline:3px solid white}.timer{font-size:58px;font-weight:900;color:#d6ff61}.score{border-bottom:1px solid #394260;padding:12px 0}.meter{height:7px;background:#303952;border-radius:8px;overflow:hidden;margin-top:8px}.meter>span{display:block;height:100%;background:#d6ff61;border-radius:8px}.categoryDots{display:flex;gap:6px;align-items:center;margin-top:10px}.categoryDots b{display:grid;place-items:center;width:30px;height:30px;border-radius:10px;background:#343d57;color:#aeb9d3;font-size:17px}.categoryDots b.on{background:#91e4c0;color:#101325}.scoreItem{background:#111a30;border-radius:14px;padding:12px;margin-bottom:9px}.scoreLine{display:flex;justify-content:space-between;gap:8px}.scoreLine strong{color:#d6ff61}.pill{display:inline-block;background:#343d57;border-radius:16px;padding:5px 9px;font-size:12px}.hero{background:linear-gradient(130deg,#343065,#1b2a46);border-radius:21px;padding:18px;margin:10px 0 18px}.result{padding:17px;border-radius:16px;background:#151e36;border:1px solid #394260;margin:12px 0}.result.positive{border-color:#4fb98e}.result.negative{border-color:#ea7e88}.scoreTitle{font-size:12px;color:#acb7d1}.good{color:#93f0ac}.bad{color:#ff9090}.info{color:#ffda9a;min-height:24px}
+
+/* Frågeläge: nästan hela skärmen reserveras för frågan och svarknapparna. */
+body.question-active {padding:0;max-width:none;min-height:100dvh;background:radial-gradient(circle at 50% 0%,#292e54 0%,#0b1020 64%)}
+body.question-active .hero,body.question-active #notice,body.question-active #teamName,body.question-active #points,body.question-active #badges,body.question-active #scorePanel {display:none!important}
+body.question-active #game {display:block!important}
+body.question-active #questionPanel {margin:0;border:0;border-radius:0;background:transparent;min-height:100dvh;padding:16px 17px;display:flex;flex-direction:column;justify-content:center}
+body.question-active #content {width:100%;max-width:650px;margin:0 auto}
+body.question-active #content h2 {font-size:clamp(27px,6.5vw,44px);line-height:1.19;text-align:center;margin:24px 0 30px;font-weight:900}
+body.question-active #content .timer {font-size:40px;text-align:center}
+body.question-active #content .roundType {text-align:center;color:#d6ff61;letter-spacing:.09em;font-size:14px;font-weight:800}
+body.question-active #content .roundHint {background:#d6ff61;color:#111827;text-align:center;padding:16px 10px;border-radius:16px;font-size:clamp(18px,5vw,25px);font-weight:1000;margin:16px 0}
+body.question-active #content .choices {gap:12px}
+body.question-active #content .choices button {min-height:92px;font-size:clamp(18px,4vw,24px);line-height:1.2}
+body.question-active #content input {font-size:25px;text-align:center;height:65px}
+body.question-active #content button {min-height:66px}
+body.question-active #content .waitAnswer {text-align:center;font-size:23px;margin-top:25px}
+</style></head><body>
+<div class="hero"><div class="row"><div><small class="accent">FAMILJ • VÄNNER • TAKTIK</small><h1>⚔️ DUELLEN</h1></div><span class="tag" id="round">LOBBY</span></div><p class="sub" style="margin-bottom:0">10 poäng + 3 kategorier för att gå i mål</p></div>
+<p id="notice" class="info"></p>
+<section id="join" class="card"><h2>Gå med i spelet</h2><p>Skriv ditt namn eller lagnamn.</p><input id="name" maxlength="25" placeholder="T.ex. Team Rock"><p><button id="joinButton">Anslut till spelet</button></p></section>
+<section id="game" class="hidden"><div class="card" id="questionPanel"><div class="row"><strong id="teamName"></strong><strong id="points" class="tag"></strong></div><div id="badges" class="categoryDots"></div><div id="content"></div></div><div class="card" id="scorePanel"><h2>Ställning</h2><div id="scores"></div></div></section>
+<audio id="answerMusic" src="/music" preload="none" loop></audio>
+<script>
+const $=id=>document.getElementById(id);const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let lastMusicRound=-1;
+let teamId=localStorage.getItem('duellen-team-id')||'',selectedBet=2,lastView='',offset=0,latest=null,previousPhase='',soundAllowed=false,lastCountdownSecond=-1;
+const msg=text=>$('notice').textContent=text;
+function chirp(happy=true){if(!soundAllowed)return;try{const A=window.AudioContext||window.webkitAudioContext;if(!A)return;const c=new A(),o=c.createOscillator(),g=c.createGain();o.type='sine';o.frequency.setValueAtTime(happy?740:330,c.currentTime);o.frequency.exponentialRampToValueAtTime(happy?1040:220,c.currentTime+.17);g.gain.setValueAtTime(.06,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+.23);o.connect(g);g.connect(c.destination);o.start();o.stop(c.currentTime+.24);o.onended=()=>c.close();}catch(e){}}
+document.addEventListener('pointerdown',()=>{soundAllowed=true;const el=$('answerMusic');if(el){el.muted=true;el.play().then(()=>{el.pause();el.muted=false;el.currentTime=0;}).catch(()=>{el.muted=false;});}},{once:true});
+function manageMusic(s){
+  const m=$('answerMusic');if(!m)return;
+  // Värdtelefonens app spelar redan musiken, undvik dubbla ljud i inbyggda webbvyn.
+  const hostView=location.hostname==='127.0.0.1'||location.hostname==='localhost';
+  if(s.phase!=='question'||s.mode==='relation'||hostView){if(!m.paused)m.pause();return;}
+  if(lastMusicRound!==s.round){lastMusicRound=s.round;m.currentTime=0;m.volume=.33;m.play().catch(()=>{});}
+  const secs=Math.max(0,Math.ceil(s.seconds-(Date.now()+offset-s.started)/1000));
+  m.volume=secs<=5?.12:.33;
+  if(m.paused&&soundAllowed&&secs>5)m.play().catch(()=>{});
+}
+async function post(path,data){const r=await fetch(path,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const j=await r.json();if(!r.ok)throw Error(j.error||'Ett fel uppstod');return j;}
+$('joinButton').onclick=async()=>{try{const j=await post('/join',{name:$('name').value});teamId=j.id;localStorage.setItem('duellen-team-id',teamId);msg('Du är ansluten!');await poll();}catch(e){msg(e.message)}};
+async function relationAnswer(answer){
+ try{
+  const strategy=$('relationStrategy')?.value||'match';
+  await post('/relation',{id:teamId,answer,strategy});
+  msg('Ditt svar är låst. Vänta på avslöjandet!');await poll();
+ }catch(e){msg(e.message)}
+}
+async function bet(n){try{await post('/bet',{id:teamId,bet:n});msg('Satsningen är låst!');await poll();}catch(e){msg(e.message)}}
+async function answer(a){try{await post('/answer',{id:teamId,answer:a});msg('Svaret är registrerat. Rättningen kommer när tiden är slut.');await poll();}catch(e){msg(e.message)}}
+function submitNumber(){answer($('numberAnswer').value.trim())}
+function display(s){
+ const you=s.you;
+ if(!you){document.body.classList.remove('question-active');$('join').classList.remove('hidden');$('game').classList.add('hidden');return;}
+ document.body.classList.toggle('question-active', s.phase==='question' && !you.qualified);
+ $('join').classList.add('hidden');$('game').classList.remove('hidden');
+ $('teamName').textContent=you.name;$('points').textContent=you.points+' poäng';
+ $('badges').innerHTML=[0,1,2].map(i=>`<b class="${i<you.badges.length?'on':''}">${i<you.badges.length?'✓':'○'}</b>`).join('')+`<span class="scoreTitle">${Math.min(you.badges.length,3)}/3 kategorier ${you.badges.length?'· '+you.badges.map(esc).join(' · '):''}</span>`;
+ $('round').textContent='RUNDA '+s.round;
+ $('scores').innerHTML=s.teams.map(t=>`<div class="scoreItem"><div class="scoreLine"><span>${esc(t.name)} ${t.qualified?'🏆':''}</span><strong>${t.points}/10 p</strong></div><div class="meter"><span style="width:${Math.max(0,Math.min(100,t.points*10))}%"></span></div><div class="categoryDots">${[0,1,2].map(i=>`<b class="${i<t.badges.length?'on':''}">${i<t.badges.length?'✓':'○'}</b>`).join('')}<span class="scoreTitle">${Math.min(3,t.badges.length)}/3</span></div></div>`).join('');
+ if(s.phase!==previousPhase){if(s.phase==='reveal'||s.phase==='finished')chirp((you.change||0)>0);if(s.phase==='question')chirp(true);previousPhase=s.phase;lastCountdownSecond=-1;}
+ const key=[s.phase,s.round,s.mode,s.relationStage,you.answered,you.betReady,you.qualified,selectedBet].join('|');
+ if(key===lastView){updateTimer(s);manageMusic(s);return;}lastView=key;
+ let html='';
+ if(you.qualified && s.phase!=='reveal' && s.phase!=='finished')html='<h2>🏆 Du är i mål!</h2><p>Följ resten av matchen i ställningen.</p>';
+ else if(s.phase==='lobby')html='<h2>✅ Du är ansluten</h2><p>Vänta på att spelledaren startar.</p>';
+ else if(s.phase==='countdown')html=`<div style="text-align:center"><p class="accent">⚡ ${esc(({normal:'Kunskap',risk:'Riskrunda',duel:'Duell',closest:'Närmast vinner',surprise:'Överraskning',relation:'Relationsduellen'})[s.mode]||'Utmaning')}</p><h2>GÖR ER REDO!</h2><div id="countdown" class="timer" style="font-size:100px">10</div><p>Frågan börjar strax!</p></div>`;
+ else if(s.phase==='ready')html='<h2>🎲 Nästa runda</h2><p>'+(s.flowMode==='auto'?'En ny utmaning lottas på spelledarens telefon.':'Spelledaren väljer nästa utmaning.')+'</p>';
+ else if(s.phase==='bet'){
+   if(you.betReady)html=`<h2>🔒 Satsningen är låst</h2><p>Du satsade ${you.bet} poäng. Frågan avslöjas när alla satsat.</p>`;
+   else html=`<h2>🎲 Riskrunda!</h2><p>Välj innan du sett frågan. Rätt: plus satsningen. Fel: minus satsningen (lägst 0).</p><div class="bets">${[1,2,3].map(n=>`<button class="${selectedBet===n?'selected':''}" onclick="selectedBet=${n};lastView='';display(latest)">${n}</button>`).join('')}</div><p><button onclick="bet(selectedBet)">Lås ${selectedBet} poäng</button></p>`;
+ } else if(s.phase==='question' && s.mode==='relation'){
+   html=`<p class="roundType">❤️ RELATIONSDUELLEN • ${s.relationsRule==='trap'?'TANKEFÄLLAN':'TÄNKER LIKA'}</p><h2>${esc(s.relationPrompt)}</h2><p>${esc(s.relationSetter)} & ${esc(s.relationReader)}</p>`;
+   if(!you.canAnswer)html+='<p>🍿 Du är publik den här gången.</p>';
+   else if(you.answered)html+='<h2>🔒 Ditt svar är låst</h2><p>Svaret avslöjas när båda svarat.</p>';
+   else if(!you.relationTurn)html+='<p>Vänta på din tur. Den andra spelarens svar är hemligt.</p>';
+   else {
+     if(s.relationsRule==='trap' && s.relationStage==='reader')html+=`<p>Tror du att du kan genomskåda det hemliga svaret?</p><select id="relationStrategy" style="width:100%;padding:15px;border-radius:12px;margin:8px 0;font-size:17px"><option value="match">Spela med – låt den första vinna om ni matchar</option><option value="steal">Försök stjäla – rätt gissning ger dig +2, annars får den andra +2</option></select>`;
+     else html+='<p>Välj ett hemligt svar. Den andra får inte se ditt val.</p>';
+     html+=`<div class="choices">${s.relationChoices.map((o,i)=>`<button onclick="relationAnswer(latest.relationChoices[${i}])">${esc(o)}</button>`).join('')}</div>`;
+   }
+ } else if(s.phase==='question'){
+   const duelling=s.mode==='duel';
+   html=`<p class="roundType">${esc(s.category)} • ${esc(({normal:'Kunskap',risk:'Riskrunda',duel:'Duell',closest:'Närmast vinner',surprise:'Överraskning'})[s.mode]||s.mode)}</p><div id="timer" class="timer">30s</div>${s.mode==='closest'?'<div class="roundHint">🎯 NÄRMAST FÅR POÄNG</div>':''}<h2>${esc(s.question)}</h2>`;
+   if(duelling)html+=`<p>⚔️ ${s.duelNames.map(esc).join(' mot ')}</p>`;
+   if(!you.canAnswer)html+='<p>🍿 Du är publik i den här duellen.</p>';
+   else if(you.answered)html+='<div class="waitAnswer">🔒 Svaret är registrerat.<p>Inväntar facit …</p></div>';
+   else if(s.kind==='number')html+='<input id="numberAnswer" inputmode="decimal" placeholder="Ange ett tal"><p><button onclick="submitNumber()">Skicka svar</button></p>';
+   else html+=`<div class="choices">${s.options.map((o,i)=>`<button onclick="answer(latest.options[${i}])">${esc(o)}</button>`).join('')}</div>`;
+ } else if(s.phase==='finished' && s.earlyEnded){
+   html=`<div class="result positive" style="text-align:center"><h2>🏆 MATCHEN AVSLUTAD</h2><h1 class="good">${esc(s.winnersText)}</h1><p>${esc(you.name)}: ${you.points} poäng</p><p>Högst poäng vann. Vid lika poäng delas segern.</p></div>`;
+ } else if(s.phase==='reveal'||s.phase==='finished'){
+   const change=you.change??0;const label=change>0?'+'+change:String(change);
+   const good=change>0;
+   if(s.mode==='relation'){
+     html=`<div class="result ${good?'positive':change<0?'negative':''}"><h2>❤️ ${esc(s.relationSummary)}</h2>${(s.relationAnswers||[]).map(x=>`<p>${esc(x.name)} svarade: <strong>${esc(x.answer)}</strong></p>`).join('')}<h2 class="${good?'good':''}">${label} poäng</h2></div><p>${s.phase==='finished'?'Matchen är slut!':'Vänta på nästa runda.'}</p>`;
+   }else html=`<div class="result ${good?'positive':change<0?'negative':''}"><h2>${good?'✅ '+esc(you.verdict):'📣 '+esc(you.verdict)}</h2><p>Du svarade: <strong>${esc(you.answer)}</strong></p><p>Rätt svar: <strong class="accent">${esc(s.correct)}</strong></p><h2 class="${good?'good':change<0?'bad':''}">${label} poäng</h2></div><p>${s.phase==='finished'?'Matchen är slut!':'Vänta på nästa runda.'}</p>`;
+ }
+ $('content').innerHTML=html;updateTimer(s);manageMusic(s);
+}
+function updateTimer(s){const ct=$('countdown');if(ct){const sec=Math.max(0,Math.ceil(s.countdownSeconds-(Date.now()+offset-s.countdownStarted)/1000));ct.textContent=sec;if(sec!==lastCountdownSecond){if(sec<=5&&sec>0)chirp(false);lastCountdownSecond=sec;}}const el=$('timer');if(!el)return;const diff=(Date.now()+offset-s.started)/1000;const secs=Math.max(0,Math.ceil(s.seconds-diff));el.textContent=secs+'s';if(secs<=5&&secs>0&&lastCountdownSecond!==secs){chirp(false);lastCountdownSecond=secs;}}
+async function poll(){try{const r=await fetch('/state?id='+encodeURIComponent(teamId),{cache:'no-store'});const s=await r.json();offset=s.now-Date.now();latest=s;display(s);}catch(e){msg('Ingen kontakt med spelledaren. Kontrollera Wi-Fi.');}}
+setInterval(poll,700);poll();
+</script></body></html>

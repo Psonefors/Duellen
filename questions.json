@@ -1,0 +1,5768 @@
+[
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Moldavien?",
+    "answer": "Chișinău",
+    "options": [
+      "Chișinău",
+      "Washington D.C.",
+      "Bogotá",
+      "Bangkok"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många meter är en olympisk simbassäng?",
+    "answer": "50",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år blev Finland självständigt?",
+    "answer": "1917",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist var sångare i bandet Nirvana?",
+    "answer": "Kurt Cobain",
+    "options": [
+      "Kurt Cobain",
+      "Eddie Vedder",
+      "Dave Grohl",
+      "Chris Cornell"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år infördes allmän och lika rösträtt till riksdagen i Sverige (första valet)?",
+    "answer": "1921",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad mäter man med en barometer?",
+    "answer": "Lufttryck",
+    "options": [
+      "Lufttryck",
+      "Luftfuktighet",
+      "Temperatur",
+      "Vindriktning"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet helium?",
+    "answer": "He",
+    "options": [
+      "He",
+      "N",
+      "P",
+      "Ni"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist sjöng Bad Romance?",
+    "answer": "Lady Gaga",
+    "options": [
+      "Lady Gaga",
+      "Madonna",
+      "Kesha",
+      "Pink"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Serbien?",
+    "answer": "Belgrad",
+    "options": [
+      "Belgrad",
+      "Luxemburg",
+      "Jerevan",
+      "Lima"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många dagar har ett normalår?",
+    "answer": "365",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad mäter man med en hygrometer?",
+    "answer": "Luftfuktighet",
+    "options": [
+      "Luftfuktighet",
+      "Lufttryck",
+      "Temperatur",
+      "Ljusintensitet"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vilken film innehåller sången Let It Go?",
+    "answer": "Frost",
+    "options": [
+      "Frost",
+      "Lejonkungen",
+      "Moana",
+      "Trassel"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken gas tar växter upp vid fotosyntes?",
+    "answer": "Koldioxid",
+    "options": [
+      "Koldioxid",
+      "Syre",
+      "Kväve",
+      "Helium"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Förenade arabemiraten?",
+    "answer": "Abu Dhabi",
+    "options": [
+      "Abu Dhabi",
+      "Tripoli",
+      "Harare",
+      "Rom"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Les Misérables”?",
+    "answer": "Victor Hugo",
+    "options": [
+      "Victor Hugo",
+      "Astrid Lindgren",
+      "Selma Lagerlöf",
+      "Lev Tolstoj"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Djurfarmen”?",
+    "answer": "George Orwell",
+    "options": [
+      "George Orwell",
+      "Antoine de Saint-Exupéry",
+      "Lewis Carroll",
+      "Herman Melville"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Thailand?",
+    "answer": "Bangkok",
+    "options": [
+      "Bangkok",
+      "Jakarta",
+      "Kairo",
+      "Windhoek"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket organ pumpar runt blodet i kroppen?",
+    "answer": "Hjärtat",
+    "options": [
+      "Hjärtat",
+      "Lungan",
+      "Levern",
+      "Njuren"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Uganda?",
+    "answer": "Kampala",
+    "options": [
+      "Kampala",
+      "Yaoundé",
+      "Stockholm",
+      "Zagreb"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många landskap finns i Sverige?",
+    "answer": "25",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många hörn har en kub?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter hög är Cheopspyramiden i sin ursprungliga höjd (ungefär)?",
+    "answer": "147",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet bor?",
+    "answer": "B",
+    "options": [
+      "B",
+      "Ne",
+      "Ar",
+      "Cr"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken bergskedja skiljer Spanien och Frankrike åt?",
+    "answer": "Pyrenéerna",
+    "options": [
+      "Pyrenéerna",
+      "Alperna",
+      "Anderna",
+      "Karpaterna"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många liter blod har en vuxen människa ungefär?",
+    "answer": "5",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år föddes Alfred Nobel?",
+    "answer": "1833",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Slovenien?",
+    "answer": "Ljubljana",
+    "options": [
+      "Ljubljana",
+      "Amsterdam",
+      "Tbilisi",
+      "Quito"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer lång är Suezkanelen (ungefär)?",
+    "answer": "193",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band gav ut albumet Nevermind 1991?",
+    "answer": "Nirvana",
+    "options": [
+      "Nirvana",
+      "Metallica",
+      "Pearl Jam",
+      "Oasis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Narnia: Häxan och lejonet”?",
+    "answer": "C.S. Lewis",
+    "options": [
+      "C.S. Lewis",
+      "J.R.R. Tolkien",
+      "Edgar Allan Poe",
+      "Charles Dickens"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”En julsaga”?",
+    "answer": "Charles Dickens",
+    "options": [
+      "Charles Dickens",
+      "Mary Shelley",
+      "August Strindberg",
+      "Lev Tolstoj"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist slog igenom med låten ...Baby One More Time?",
+    "answer": "Britney Spears",
+    "options": [
+      "Britney Spears",
+      "Christina Aguilera",
+      "Jessica Simpson",
+      "Jennifer Lopez"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Stolthet och fördom”?",
+    "answer": "Jane Austen",
+    "options": [
+      "Jane Austen",
+      "Astrid Lindgren",
+      "Charles Dickens",
+      "Daniel Defoe"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Sagan om ringen”?",
+    "answer": "J.R.R. Tolkien",
+    "options": [
+      "J.R.R. Tolkien",
+      "Ernest Hemingway",
+      "George Orwell",
+      "Lewis Carroll"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter lejonungen i Lejonkungen?",
+    "answer": "Simba",
+    "options": [
+      "Simba",
+      "Mufasa",
+      "Scar",
+      "Timon"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”1984”?",
+    "answer": "George Orwell",
+    "options": [
+      "George Orwell",
+      "Astrid Lindgren",
+      "Jonas Jonasson",
+      "F. Scott Fitzgerald"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "I vilken svensk tv-serie finns karaktären Ove Sundberg?",
+    "answer": "Solsidan",
+    "options": [
+      "Solsidan",
+      "Bonusfamiljen",
+      "Vår tid är nu",
+      "Svensson, Svensson"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad kallas vetenskapen om vädret?",
+    "answer": "Meteorologi",
+    "options": [
+      "Meteorologi",
+      "Geologi",
+      "Biologi",
+      "Astronomi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Mexiko?",
+    "answer": "Mexico City",
+    "options": [
+      "Mexico City",
+      "Guatemala City",
+      "Brasília",
+      "Ulaanbaatar"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många poäng ger ett straffkast i basket?",
+    "answer": "1",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många grader är vinkelsumman i en triangel?",
+    "answer": "180",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många procent syre innehåller torr luft ungefär?",
+    "answer": "21",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Papua Nya Guinea?",
+    "answer": "Port Moresby",
+    "options": [
+      "Port Moresby",
+      "Paris",
+      "Zagreb",
+      "Minsk"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Guatemala?",
+    "answer": "Guatemala City",
+    "options": [
+      "Guatemala City",
+      "Lima",
+      "Dhaka",
+      "Beirut"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många delstater har USA?",
+    "answer": "50",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Frankenstein”?",
+    "answer": "Mary Shelley",
+    "options": [
+      "Mary Shelley",
+      "Miguel de Cervantes",
+      "Astrid Lindgren",
+      "August Strindberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Island?",
+    "answer": "Reykjavik",
+    "options": [
+      "Reykjavik",
+      "Warszawa",
+      "Sarajevo",
+      "Ottawa"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Ukraina?",
+    "answer": "Kyiv",
+    "options": [
+      "Kyiv",
+      "Ottawa",
+      "San Salvador",
+      "Sri Jayawardenepura Kotte"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad heter Pippis häst?",
+    "answer": "Lilla Gubben",
+    "options": [
+      "Lilla Gubben",
+      "Blixten",
+      "Pricken",
+      "Socker"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många kilogram går på ett ton?",
+    "answer": "1000",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många färger brukar regnbågens traditionella indelning ha?",
+    "answer": "7",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Den gamle och havet”?",
+    "answer": "Ernest Hemingway",
+    "options": [
+      "Ernest Hemingway",
+      "Vilhelm Moberg",
+      "Astrid Lindgren",
+      "Agatha Christie"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Estland?",
+    "answer": "Tallinn",
+    "options": [
+      "Tallinn",
+      "Tbilisi",
+      "Guatemala City",
+      "Islamabad"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Singapore?",
+    "answer": "Singapore",
+    "options": [
+      "Singapore",
+      "Bagdad",
+      "Nairobi",
+      "Suva"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet magnesium?",
+    "answer": "Mg",
+    "options": [
+      "Mg",
+      "Cl",
+      "Au",
+      "V"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport spelas på Wimbledon?",
+    "answer": "Tennis",
+    "options": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Badminton"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många centimeter lång är en A4-sidas långsida ungefär?",
+    "answer": "30",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet argon?",
+    "answer": "Ar",
+    "options": [
+      "Ar",
+      "Zn",
+      "Mn",
+      "Ra"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kamerun?",
+    "answer": "Yaoundé",
+    "options": [
+      "Yaoundé",
+      "Antananarivo",
+      "Madrid",
+      "Bryssel"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken frukt används traditionellt i guacamole?",
+    "answer": "Avokado",
+    "options": [
+      "Avokado",
+      "Mango",
+      "Banan",
+      "Papaya"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Whiplash (2014)?",
+    "answer": "Damien Chazelle",
+    "options": [
+      "Damien Chazelle",
+      "Alfred Hitchcock",
+      "Lana och Lilly Wachowski",
+      "Robert Zemeckis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad heter vår galax?",
+    "answer": "Vintergatan",
+    "options": [
+      "Vintergatan",
+      "Andromedagalaxen",
+      "Triangelgalaxen",
+      "Magellanska molnet"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många ben har en insekt?",
+    "answer": "6",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år öppnade Ölandsbron?",
+    "answer": "1972",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år sjönk regalskeppet Vasa?",
+    "answer": "1628",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken bergskedja går genom Schweiz och Österrike?",
+    "answer": "Alperna",
+    "options": [
+      "Alperna",
+      "Anderna",
+      "Himalaya",
+      "Appalacherna"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sidor har en hexagon?",
+    "answer": "6",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet syre?",
+    "answer": "O",
+    "options": [
+      "O",
+      "Al",
+      "Fe",
+      "U"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land är känt för Angkor Wat?",
+    "answer": "Kambodja",
+    "options": [
+      "Kambodja",
+      "Thailand",
+      "Vietnam",
+      "Laos"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken svensk grupp fick en hit med The Sign?",
+    "answer": "Ace of Base",
+    "options": [
+      "Ace of Base",
+      "ABBA",
+      "Roxette",
+      "Alcazar"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Laos?",
+    "answer": "Vientiane",
+    "options": [
+      "Vientiane",
+      "Tasjkent",
+      "Tunis",
+      "Canberra"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet bly?",
+    "answer": "Pb",
+    "options": [
+      "Pb",
+      "Cr",
+      "Se",
+      "Be"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "number",
+    "question": "Hur många säsonger har tv-serien Friends?",
+    "answer": "10",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet beryllium?",
+    "answer": "Be",
+    "options": [
+      "Be",
+      "F",
+      "Cl",
+      "Mn"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Bosnien och Hercegovina?",
+    "answer": "Sarajevo",
+    "options": [
+      "Sarajevo",
+      "London",
+      "Washington D.C.",
+      "Montevideo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band är känt för Smoke on the Water?",
+    "answer": "Deep Purple",
+    "options": [
+      "Deep Purple",
+      "Black Sabbath",
+      "Led Zeppelin",
+      "Rainbow"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många centimeter är en meter?",
+    "answer": "100",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket färgämne ger växter deras gröna färg?",
+    "answer": "Klorofyll",
+    "options": [
+      "Klorofyll",
+      "Hemoglobin",
+      "Keratin",
+      "Melanin"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad kallas djur som bara äter växter?",
+    "answer": "Växtätare",
+    "options": [
+      "Växtätare",
+      "Rovdjur",
+      "Asätare",
+      "Allätare"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Spanien?",
+    "answer": "Madrid",
+    "options": [
+      "Madrid",
+      "Wien",
+      "Amsterdam",
+      "Havanna"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet järn?",
+    "answer": "Fe",
+    "options": [
+      "Fe",
+      "Hg",
+      "Pt",
+      "Pd"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kalcium?",
+    "answer": "Ca",
+    "options": [
+      "Ca",
+      "Au",
+      "Ti",
+      "Pu"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Utvandrarna”?",
+    "answer": "Vilhelm Moberg",
+    "options": [
+      "Vilhelm Moberg",
+      "William Golding",
+      "Fjodor Dostojevskij",
+      "Lev Tolstoj"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken svensk duo gjorde låten The Look?",
+    "answer": "Roxette",
+    "options": [
+      "Roxette",
+      "ABBA",
+      "Eurythmics",
+      "Pet Shop Boys"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år inleddes franska revolutionen?",
+    "answer": "1789",
+    "options": [
+      "1789",
+      "1776",
+      "1815",
+      "1848"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Norge?",
+    "answer": "Oslo",
+    "options": [
+      "Oslo",
+      "Lissabon",
+      "Belgrad",
+      "Tbilisi"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet väte?",
+    "answer": "H",
+    "options": [
+      "H",
+      "C",
+      "Si",
+      "Sn"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har staden Kyoto?",
+    "answer": "Japan",
+    "options": [
+      "Japan",
+      "Kina",
+      "Sydkorea",
+      "Thailand"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist gav ut albumet Purple Rain?",
+    "answer": "Prince",
+    "options": [
+      "Prince",
+      "Michael Jackson",
+      "Stevie Wonder",
+      "Lionel Richie"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist kallas ofta The King of Pop?",
+    "answer": "Michael Jackson",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Elvis Presley",
+      "David Bowie"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad betyder prefixet kilo i metersystemet?",
+    "answer": "Tusen",
+    "options": [
+      "Tusen",
+      "Hundra",
+      "Tio",
+      "En miljon"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket av följande djur är ett däggdjur?",
+    "answer": "Delfin",
+    "options": [
+      "Delfin",
+      "Haj",
+      "Torsk",
+      "Bläckfisk"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken svensk kung stupade vid Lützen 1632?",
+    "answer": "Gustav II Adolf",
+    "options": [
+      "Gustav II Adolf",
+      "Karl XII",
+      "Gustav Vasa",
+      "Oscar II"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vad hette skeppet som sjönk i Stockholm 1628?",
+    "answer": "Vasa",
+    "options": [
+      "Vasa",
+      "Kronan",
+      "Götheborg",
+      "Äpplet"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist var känd som The King of Rock and Roll?",
+    "answer": "Elvis Presley",
+    "options": [
+      "Elvis Presley",
+      "Chuck Berry",
+      "Buddy Holly",
+      "Little Richard"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många kromosomer finns normalt i en mänsklig kroppscell?",
+    "answer": "46",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Filippinerna?",
+    "answer": "Manila",
+    "options": [
+      "Manila",
+      "Riyadh",
+      "Kampala",
+      "Port Moresby"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter är Eiffeltornet inklusive antenn (ungefär)?",
+    "answer": "330",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer är det mellan jordens poler längs en meridian (ungefär)?",
+    "answer": "20004",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket grundämne har kemisk beteckning O?",
+    "answer": "Syre",
+    "options": [
+      "Syre",
+      "Väte",
+      "Kol",
+      "Kväve"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet klor?",
+    "answer": "Cl",
+    "options": [
+      "Cl",
+      "Cu",
+      "Co",
+      "Rb"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kisel?",
+    "answer": "Si",
+    "options": [
+      "Si",
+      "K",
+      "Pb",
+      "Ba"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad heter den internationella fotbollsorganisationen?",
+    "answer": "FIFA",
+    "options": [
+      "FIFA",
+      "UEFA",
+      "IOC",
+      "IIHF"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer lång är Panamakanalen (ungefär)?",
+    "answer": "82",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet natrium?",
+    "answer": "Na",
+    "options": [
+      "Na",
+      "S",
+      "Ag",
+      "W"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kambodja?",
+    "answer": "Phnom Penh",
+    "options": [
+      "Phnom Penh",
+      "Astana",
+      "Alger",
+      "Antananarivo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många bitar går på en byte?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet aluminium?",
+    "answer": "Al",
+    "options": [
+      "Al",
+      "Ar",
+      "Hg",
+      "Se"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vad hette den första människan på månen?",
+    "answer": "Neil Armstrong",
+    "options": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Jurij Gagarin",
+      "Alan Shepard"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många vita rutor finns på ett schackbräde?",
+    "answer": "32",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet rubidium?",
+    "answer": "Rb",
+    "options": [
+      "Rb",
+      "Os",
+      "N",
+      "Fe"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport förknippas med Wimbledon?",
+    "answer": "Tennis",
+    "options": [
+      "Tennis",
+      "Golf",
+      "Cricket",
+      "Rugby"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen E.T. (1982)?",
+    "answer": "Steven Spielberg",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Francis Ford Coppola",
+      "Ridley Scott"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet mangan?",
+    "answer": "Mn",
+    "options": [
+      "Mn",
+      "I",
+      "Rb",
+      "O"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket land byggde den kinesiska muren?",
+    "answer": "Kina",
+    "options": [
+      "Kina",
+      "Japan",
+      "Mongoliet",
+      "Indien"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Dracula”?",
+    "answer": "Bram Stoker",
+    "options": [
+      "Bram Stoker",
+      "Daniel Defoe",
+      "Arthur Conan Doyle",
+      "August Strindberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kvadratkilometer är Gotlands yta (ungefär)?",
+    "answer": "3140",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många landskap finns det i Sverige?",
+    "answer": "25",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem spelar huvudrollen Jack i filmen Titanic (1997)?",
+    "answer": "Leonardo DiCaprio",
+    "options": [
+      "Leonardo DiCaprio",
+      "Brad Pitt",
+      "Matt Damon",
+      "Tom Cruise"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad är H2O den kemiska formeln för?",
+    "answer": "Vatten",
+    "options": [
+      "Vatten",
+      "Väteperoxid",
+      "Salt",
+      "Syre"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i El Salvador?",
+    "answer": "San Salvador",
+    "options": [
+      "San Salvador",
+      "Montevideo",
+      "Bangkok",
+      "Muskat"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilket land förknippas med kampsporten sumo?",
+    "answer": "Japan",
+    "options": [
+      "Japan",
+      "Kina",
+      "Mongoliet",
+      "Thailand"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet silver?",
+    "answer": "Ag",
+    "options": [
+      "Ag",
+      "Ni",
+      "Br",
+      "H"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet osmium?",
+    "answer": "Os",
+    "options": [
+      "Os",
+      "Be",
+      "Mg",
+      "Hg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kroatien?",
+    "answer": "Zagreb",
+    "options": [
+      "Zagreb",
+      "Bryssel",
+      "Ankara",
+      "Caracas"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år landade de första människorna på månen?",
+    "answer": "1969",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Sverige?",
+    "answer": "Stockholm",
+    "options": [
+      "Stockholm",
+      "Madrid",
+      "Ljubljana",
+      "Ankara"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Peru?",
+    "answer": "Lima",
+    "options": [
+      "Lima",
+      "Tokyo",
+      "Kuala Lumpur",
+      "Tunis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet fosfor?",
+    "answer": "P",
+    "options": [
+      "P",
+      "Ca",
+      "Sn",
+      "Sr"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Bangladesh?",
+    "answer": "Dhaka",
+    "options": [
+      "Dhaka",
+      "Kuala Lumpur",
+      "Abu Dhabi",
+      "Lusaka"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Grekland?",
+    "answer": "Aten",
+    "options": [
+      "Aten",
+      "Sofia",
+      "Dublin",
+      "Santo Domingo"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nepal?",
+    "answer": "Katmandu",
+    "options": [
+      "Katmandu",
+      "Singapore",
+      "Doha",
+      "Harare"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet jod?",
+    "answer": "I",
+    "options": [
+      "I",
+      "Ba",
+      "Os",
+      "Al"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Algeriet?",
+    "answer": "Alger",
+    "options": [
+      "Alger",
+      "Dodoma",
+      "Canberra",
+      "Wien"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i USA?",
+    "answer": "Washington D.C.",
+    "options": [
+      "Washington D.C.",
+      "Panama City",
+      "Asunción",
+      "Jakarta"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många länder gränsar till Norge på land?",
+    "answer": "3",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Sagan om ringen: De två tornen (2002)?",
+    "answer": "Peter Jackson",
+    "options": [
+      "Peter Jackson",
+      "Christopher Nolan",
+      "Alfred Hitchcock",
+      "Lana och Lilly Wachowski"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kvicksilver?",
+    "answer": "Hg",
+    "options": [
+      "Hg",
+      "Mn",
+      "V",
+      "Li"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad kallas vatten i fast form?",
+    "answer": "Is",
+    "options": [
+      "Is",
+      "Ånga",
+      "Dimma",
+      "Moln"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år landade människor första gången på månen?",
+    "answer": "1969",
+    "options": [
+      "1969",
+      "1957",
+      "1961",
+      "1975"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Tillbaka till framtiden (1985)?",
+    "answer": "Robert Zemeckis",
+    "options": [
+      "Robert Zemeckis",
+      "Damien Chazelle",
+      "James Cameron",
+      "Steven Spielberg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport utövas i Vasaloppet?",
+    "answer": "Längdskidåkning",
+    "options": [
+      "Längdskidåkning",
+      "Skidskytte",
+      "Alpint",
+      "Skridskor"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilket redskap används för att slå bollen i golf?",
+    "answer": "Klubba",
+    "options": [
+      "Klubba",
+      "Racket",
+      "Paddel",
+      "Batong"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Mongoliet?",
+    "answer": "Ulaanbaatar",
+    "options": [
+      "Ulaanbaatar",
+      "Beirut",
+      "Kigali",
+      "Oslo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Jordanien?",
+    "answer": "Amman",
+    "options": [
+      "Amman",
+      "Alger",
+      "Luanda",
+      "Madrid"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet selen?",
+    "answer": "Se",
+    "options": [
+      "Se",
+      "Ra",
+      "Li",
+      "Cl"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många hjärtan har en åttaarmad bläckfisk?",
+    "answer": "3",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad heter kraften som håller oss kvar på jorden?",
+    "answer": "Gravitation",
+    "options": [
+      "Gravitation",
+      "Friktion",
+      "Magnetism",
+      "Tröghet"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Lettland?",
+    "answer": "Riga",
+    "options": [
+      "Riga",
+      "Jerevan",
+      "Tegucigalpa",
+      "Dhaka"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet krom?",
+    "answer": "Cr",
+    "options": [
+      "Cr",
+      "Br",
+      "Ra",
+      "F"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Uruguay?",
+    "answer": "Montevideo",
+    "options": [
+      "Montevideo",
+      "New Delhi",
+      "Jakarta",
+      "Kampala"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Bulgarien?",
+    "answer": "Sofia",
+    "options": [
+      "Sofia",
+      "Skopje",
+      "Minsk",
+      "Bogotá"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kväve?",
+    "answer": "N",
+    "options": [
+      "N",
+      "Mg",
+      "Ca",
+      "Pt"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist gav ut låten Dancing in the Dark 1984?",
+    "answer": "Bruce Springsteen",
+    "options": [
+      "Bruce Springsteen",
+      "Bon Jovi",
+      "U2",
+      "The Police"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket djur producerar honung?",
+    "answer": "Honungsbi",
+    "options": [
+      "Honungsbi",
+      "Humla",
+      "Geting",
+      "Fjäril"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många spelare finns samtidigt på planen i ett handbollslag inklusive målvakt?",
+    "answer": "7",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad kallas en nolla i tennis?",
+    "answer": "Love",
+    "options": [
+      "Love",
+      "Deuce",
+      "Ace",
+      "Break"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många minuter är en kvart?",
+    "answer": "15",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år slutade första världskriget?",
+    "answer": "1918",
+    "options": [
+      "1918",
+      "1914",
+      "1923",
+      "1939"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många dagar har februari under skottår?",
+    "answer": "29",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Montenegro?",
+    "answer": "Podgorica",
+    "options": [
+      "Podgorica",
+      "Dublin",
+      "Ottawa",
+      "Buenos Aires"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "I vilket land ligger Machu Picchu?",
+    "answer": "Peru",
+    "options": [
+      "Peru",
+      "Mexiko",
+      "Chile",
+      "Bolivia"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Namibia?",
+    "answer": "Windhoek",
+    "options": [
+      "Windhoek",
+      "Stockholm",
+      "Prag",
+      "London"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen The Grand Budapest Hotel (2014)?",
+    "answer": "Wes Anderson",
+    "options": [
+      "Wes Anderson",
+      "Alfred Hitchcock",
+      "Christopher Nolan",
+      "Damien Chazelle"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad kallas ett slag under par på ett golfhål?",
+    "answer": "Birdie",
+    "options": [
+      "Birdie",
+      "Bogey",
+      "Eagle",
+      "Albatross"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken planet är störst i solsystemet?",
+    "answer": "Jupiter",
+    "options": [
+      "Jupiter",
+      "Mars",
+      "Saturnus",
+      "Neptunus"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Österrike?",
+    "answer": "Wien",
+    "options": [
+      "Wien",
+      "Tirana",
+      "Vilnius",
+      "Tegucigalpa"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Sagan om ringen: Konungens återkomst (2003)?",
+    "answer": "Peter Jackson",
+    "options": [
+      "Peter Jackson",
+      "Alfred Hitchcock",
+      "Wes Anderson",
+      "Robert Zemeckis"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad står förkortningen WWW för?",
+    "answer": "World Wide Web",
+    "options": [
+      "World Wide Web",
+      "Wide Wireless World",
+      "World Wired Web",
+      "Web World Window"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen La La Land (2016)?",
+    "answer": "Damien Chazelle",
+    "options": [
+      "Damien Chazelle",
+      "Alfred Hitchcock",
+      "Steven Spielberg",
+      "Ridley Scott"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Den hemliga trädgården”?",
+    "answer": "Frances Hodgson Burnett",
+    "options": [
+      "Frances Hodgson Burnett",
+      "Selma Lagerlöf",
+      "Charles Dickens",
+      "Daniel Defoe"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Pulp Fiction (1994)?",
+    "answer": "Quentin Tarantino",
+    "options": [
+      "Quentin Tarantino",
+      "Robert Zemeckis",
+      "Alfred Hitchcock",
+      "Steven Spielberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Bröderna Lejonhjärta”?",
+    "answer": "Astrid Lindgren",
+    "options": [
+      "Astrid Lindgren",
+      "Miguel de Cervantes",
+      "Daniel Defoe",
+      "Charles Dickens"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport använder man en puck i?",
+    "answer": "Ishockey",
+    "options": [
+      "Ishockey",
+      "Basket",
+      "Handboll",
+      "Volleyboll"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet plutonium?",
+    "answer": "Pu",
+    "options": [
+      "Pu",
+      "He",
+      "Ne",
+      "Ag"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet uran?",
+    "answer": "U",
+    "options": [
+      "U",
+      "Se",
+      "Pd",
+      "Mg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen The Matrix (1999)?",
+    "answer": "Lana och Lilly Wachowski",
+    "options": [
+      "Lana och Lilly Wachowski",
+      "Ridley Scott",
+      "Wes Anderson",
+      "James Cameron"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Saudiarabien?",
+    "answer": "Riyadh",
+    "options": [
+      "Riyadh",
+      "Rabat",
+      "Yaoundé",
+      "Paris"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter är Kebnekaises nordtopp över havet (ungefär)?",
+    "answer": "2097",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Uzbekistan?",
+    "answer": "Tasjkent",
+    "options": [
+      "Tasjkent",
+      "Doha",
+      "Abuja",
+      "Köpenhamn"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter hög är Frihetsgudinnan inklusive sockel (ungefär)?",
+    "answer": "93",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Angola?",
+    "answer": "Luanda",
+    "options": [
+      "Luanda",
+      "Canberra",
+      "Lissabon",
+      "Amsterdam"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Interstellar (2014)?",
+    "answer": "Christopher Nolan",
+    "options": [
+      "Christopher Nolan",
+      "Alfred Hitchcock",
+      "Quentin Tarantino",
+      "Lana och Lilly Wachowski"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "I vilket land började den industriella revolutionen?",
+    "answer": "Storbritannien",
+    "options": [
+      "Storbritannien",
+      "Frankrike",
+      "Tyskland",
+      "USA"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer är jordens omkrets vid ekvatorn (avrundat)?",
+    "answer": "40075",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Titanic (1997)?",
+    "answer": "James Cameron",
+    "options": [
+      "James Cameron",
+      "Robert Zemeckis",
+      "Alfred Hitchcock",
+      "Christopher Nolan"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad är en strike i bowling?",
+    "answer": "Alla käglor faller på första slaget",
+    "options": [
+      "Alla käglor faller på första slaget",
+      "Alla käglor faller på andra slaget",
+      "Nio käglor faller",
+      "Två övertramp"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket skepp sjönk på sin jungfruresa 1912?",
+    "answer": "Titanic",
+    "options": [
+      "Titanic",
+      "Vasa",
+      "Britannic",
+      "Queen Mary"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band gav ut albumet The Dark Side of the Moon?",
+    "answer": "Pink Floyd",
+    "options": [
+      "Pink Floyd",
+      "Led Zeppelin",
+      "Deep Purple",
+      "The Doors"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken brittisk artist sjöng Shape of You?",
+    "answer": "Ed Sheeran",
+    "options": [
+      "Ed Sheeran",
+      "Sam Smith",
+      "George Ezra",
+      "Harry Styles"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många planeter finns i solsystemet?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år blev Sverige medlem i EU?",
+    "answer": "1995",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Män som hatar kvinnor”?",
+    "answer": "Stieg Larsson",
+    "options": [
+      "Stieg Larsson",
+      "Agatha Christie",
+      "Selma Lagerlöf",
+      "Astrid Lindgren"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet litium?",
+    "answer": "Li",
+    "options": [
+      "Li",
+      "O",
+      "S",
+      "Co"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken färg får du när du blandar blått och gult i vanlig färglära?",
+    "answer": "Grönt",
+    "options": [
+      "Grönt",
+      "Lila",
+      "Orange",
+      "Brunt"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Tanzania?",
+    "answer": "Dodoma",
+    "options": [
+      "Dodoma",
+      "Harare",
+      "Köpenhamn",
+      "Tirana"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nederländerna?",
+    "answer": "Amsterdam",
+    "options": [
+      "Amsterdam",
+      "Vilnius",
+      "Kingston",
+      "Sucre"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många bollar finns på bordet när ett snookerparti startar inklusive vit boll?",
+    "answer": "22",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Chile?",
+    "answer": "Santiago",
+    "options": [
+      "Santiago",
+      "Seoul",
+      "Singapore",
+      "Tripoli"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Alice i Underlandet”?",
+    "answer": "Lewis Carroll",
+    "options": [
+      "Lewis Carroll",
+      "Antoine de Saint-Exupéry",
+      "C.S. Lewis",
+      "Edgar Allan Poe"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Frankrike?",
+    "answer": "Paris",
+    "options": [
+      "Paris",
+      "Bratislava",
+      "Bryssel",
+      "Mexico City"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Tyskland?",
+    "answer": "Berlin",
+    "options": [
+      "Berlin",
+      "Prag",
+      "Skopje",
+      "Washington D.C."
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band gav ut albumet Abbey Road?",
+    "answer": "The Beatles",
+    "options": [
+      "The Beatles",
+      "The Rolling Stones",
+      "Queen",
+      "The Who"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket land hade faraoner under antiken?",
+    "answer": "Egypten",
+    "options": [
+      "Egypten",
+      "Grekland",
+      "Persien",
+      "Romarriket"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "number",
+    "question": "Vilket år hade den första Star Wars-filmen biopremiär?",
+    "answer": "1977",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sidor har en oktagon?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken är Sveriges största sjö till ytan?",
+    "answer": "Vänern",
+    "options": [
+      "Vänern",
+      "Vättern",
+      "Mälaren",
+      "Hjälmaren"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Sagan om ringen: Härskarringen (2001)?",
+    "answer": "Peter Jackson",
+    "options": [
+      "Peter Jackson",
+      "Damien Chazelle",
+      "Robert Zemeckis",
+      "Lana och Lilly Wachowski"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Hundraåringen som klev ut genom fönstret och försvann”?",
+    "answer": "Jonas Jonasson",
+    "options": [
+      "Jonas Jonasson",
+      "Bram Stoker",
+      "Arthur Conan Doyle",
+      "J.R.R. Tolkien"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet neon?",
+    "answer": "Ne",
+    "options": [
+      "Ne",
+      "P",
+      "Zn",
+      "Br"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad heter den högsta poängen med en pil i dart?",
+    "answer": "Trippel 20",
+    "options": [
+      "Trippel 20",
+      "Bullseye",
+      "Dubbel 20",
+      "Trippel 19"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken stad delades av en mur 1961–1989?",
+    "answer": "Berlin",
+    "options": [
+      "Berlin",
+      "Paris",
+      "Wien",
+      "Rom"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år blev Gustav Vasa kung av Sverige?",
+    "answer": "1523",
+    "options": [
+      "1523",
+      "1492",
+      "1611",
+      "1718"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Colombia?",
+    "answer": "Bogotá",
+    "options": [
+      "Bogotá",
+      "Asunción",
+      "Hanoi",
+      "Kairo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många grundämnen finns i det periodiska systemet (erkända 2026)?",
+    "answer": "118",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många ringar har OS-symbolen?",
+    "answer": "5",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Argentina?",
+    "answer": "Buenos Aires",
+    "options": [
+      "Buenos Aires",
+      "Peking",
+      "Manila",
+      "Nairobi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Gösta Berlings saga”?",
+    "answer": "Selma Lagerlöf",
+    "options": [
+      "Selma Lagerlöf",
+      "Antoine de Saint-Exupéry",
+      "George Orwell",
+      "Miguel de Cervantes"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken svensk drottning abdikerade år 1654?",
+    "answer": "Kristina",
+    "options": [
+      "Kristina",
+      "Ulrika Eleonora",
+      "Margareta",
+      "Lovisa Ulrika"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Kill Bill: Vol. 1?",
+    "answer": "Quentin Tarantino",
+    "options": [
+      "Quentin Tarantino",
+      "Steven Spielberg",
+      "Robert Zemeckis",
+      "Alfred Hitchcock"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kazakhstan?",
+    "answer": "Astana",
+    "options": [
+      "Astana",
+      "Abu Dhabi",
+      "Dodoma",
+      "Helsingfors"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Flugornas herre”?",
+    "answer": "William Golding",
+    "options": [
+      "William Golding",
+      "Frances Hodgson Burnett",
+      "Charles Dickens",
+      "Lev Tolstoj"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många meter är ett maratonlopp (avrundat)?",
+    "answer": "42195",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många län har Sverige?",
+    "answer": "21",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många länder gränsar till Tyskland?",
+    "answer": "9",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Jurassic Park (1993)?",
+    "answer": "Steven Spielberg",
+    "options": [
+      "Steven Spielberg",
+      "Robert Zemeckis",
+      "Christopher Nolan",
+      "Ridley Scott"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många meter är ett varv på en vanlig utomhusfriidrottsbana?",
+    "answer": "400",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Emil i Lönneberga”?",
+    "answer": "Astrid Lindgren",
+    "options": [
+      "Astrid Lindgren",
+      "Agatha Christie",
+      "August Strindberg",
+      "Miguel de Cervantes"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många spelare är på planen i ett fotbollslag under en vanlig match?",
+    "answer": "11",
+    "options": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket ämne behöver växter ta upp från luften för fotosyntesen?",
+    "answer": "Koldioxid",
+    "options": [
+      "Koldioxid",
+      "Syre",
+      "Kvävgas",
+      "Helium"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många rutor finns i ett vanligt sudokunät?",
+    "answer": "81",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Apocalypse Now (1979)?",
+    "answer": "Francis Ford Coppola",
+    "options": [
+      "Francis Ford Coppola",
+      "Ridley Scott",
+      "Alfred Hitchcock",
+      "James Cameron"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många liter är en kubikmeter?",
+    "answer": "1000",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket instrument har vanligtvis 88 tangenter?",
+    "answer": "Piano",
+    "options": [
+      "Piano",
+      "Gitarr",
+      "Trumpet",
+      "Fiol"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nicaragua?",
+    "answer": "Managua",
+    "options": [
+      "Managua",
+      "Buenos Aires",
+      "Sri Jayawardenepura Kotte",
+      "Doha"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Alien (1979)?",
+    "answer": "Ridley Scott",
+    "options": [
+      "Ridley Scott",
+      "Peter Jackson",
+      "Frank Darabont",
+      "Lana och Lilly Wachowski"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad kallas läran om stenar och jordens uppbyggnad?",
+    "answer": "Geologi",
+    "options": [
+      "Geologi",
+      "Ekologi",
+      "Botanik",
+      "Zoologi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet guld?",
+    "answer": "Au",
+    "options": [
+      "Au",
+      "Co",
+      "W",
+      "He"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Schweiz?",
+    "answer": "Bern",
+    "options": [
+      "Bern",
+      "Chișinău",
+      "Santo Domingo",
+      "Seoul"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år inträffade slaget vid Waterloo?",
+    "answer": "1815",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sekunder går på en timme?",
+    "answer": "3600",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många ringar finns i den olympiska symbolen?",
+    "answer": "5",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Panama?",
+    "answer": "Panama City",
+    "options": [
+      "Panama City",
+      "Quito",
+      "Islamabad",
+      "Amman"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Fiji?",
+    "answer": "Suva",
+    "options": [
+      "Suva",
+      "Berlin",
+      "Sofia",
+      "Chișinău"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har guld?",
+    "answer": "Au",
+    "options": [
+      "Au",
+      "Ag",
+      "Fe",
+      "Cu"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken metall har den kemiska beteckningen Fe?",
+    "answer": "Järn",
+    "options": [
+      "Järn",
+      "Koppar",
+      "Silver",
+      "Tenn"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sekunder går på en minut?",
+    "answer": "60",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många grader Celsius fryser rent vatten vid normalt lufttryck?",
+    "answer": "0",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Sydkorea?",
+    "answer": "Seoul",
+    "options": [
+      "Seoul",
+      "Bangkok",
+      "Bagdad",
+      "Accra"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Storbritannien?",
+    "answer": "London",
+    "options": [
+      "London",
+      "Ankara",
+      "Panama City",
+      "New Delhi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många centimeter är en svensk fot ungefär (historiskt mått)?",
+    "answer": "30",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken färg får man om man blandar blått och gult målarpigment?",
+    "answer": "Grönt",
+    "options": [
+      "Grönt",
+      "Lila",
+      "Orange",
+      "Rött"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad kallas djur som är aktiva på natten?",
+    "answer": "Nattaktiva",
+    "options": [
+      "Nattaktiva",
+      "Växelvarma",
+      "Dagaktiva",
+      "Allätare"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många tidszoner brukar världen delas in i?",
+    "answer": "24",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Finland?",
+    "answer": "Helsingfors",
+    "options": [
+      "Helsingfors",
+      "Rom",
+      "Tirana",
+      "Jerevan"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet volfram?",
+    "answer": "W",
+    "options": [
+      "W",
+      "Cs",
+      "H",
+      "P"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad betyder en birdie i golf?",
+    "answer": "Ett slag under par",
+    "options": [
+      "Ett slag under par",
+      "Ett slag över par",
+      "Två slag över par",
+      "Tre slag under par"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken del av cellen innehåller vanligen DNA i eukaryota celler?",
+    "answer": "Cellkärnan",
+    "options": [
+      "Cellkärnan",
+      "Cellmembranet",
+      "Ribosomen",
+      "Cytoplasman"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer är ett svenskt milmått?",
+    "answer": "10",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många meter är ett maraton (avrundat till närmaste meter)?",
+    "answer": "42195",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Paraguay?",
+    "answer": "Asunción",
+    "options": [
+      "Asunción",
+      "Islamabad",
+      "Ulaanbaatar",
+      "Addis Abeba"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket land kommer maträtten sushi ursprungligen från?",
+    "answer": "Japan",
+    "options": [
+      "Japan",
+      "Thailand",
+      "Kina",
+      "Vietnam"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Röda rummet”?",
+    "answer": "August Strindberg",
+    "options": [
+      "August Strindberg",
+      "Lev Tolstoj",
+      "Edgar Allan Poe",
+      "Lewis Carroll"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många armar har en bläckfisk av typen åttaarmad bläckfisk?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken antik civilisation byggde Colosseum?",
+    "answer": "Romarna",
+    "options": [
+      "Romarna",
+      "Grekerna",
+      "Egyptierna",
+      "Perserna"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vilken filmserie har figuren Darth Vader?",
+    "answer": "Star Wars",
+    "options": [
+      "Star Wars",
+      "Star Trek",
+      "Dune",
+      "Alien"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken sångare sjöng My Way i en berömd version 1969?",
+    "answer": "Frank Sinatra",
+    "options": [
+      "Frank Sinatra",
+      "Dean Martin",
+      "Nat King Cole",
+      "Bing Crosby"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet cesium?",
+    "answer": "Cs",
+    "options": [
+      "Cs",
+      "Pd",
+      "C",
+      "Ca"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Armenien?",
+    "answer": "Jerevan",
+    "options": [
+      "Jerevan",
+      "Port-au-Prince",
+      "Santiago",
+      "Kuala Lumpur"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Pakistan?",
+    "answer": "Islamabad",
+    "options": [
+      "Islamabad",
+      "Vientiane",
+      "Beirut",
+      "Luanda"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Nyckeln till frihet (1994)?",
+    "answer": "Frank Darabont",
+    "options": [
+      "Frank Darabont",
+      "Peter Jackson",
+      "Quentin Tarantino",
+      "Alfred Hitchcock"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Dominikanska republiken?",
+    "answer": "Santo Domingo",
+    "options": [
+      "Santo Domingo",
+      "Bogotá",
+      "Peking",
+      "Bagdad"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet strontium?",
+    "answer": "Sr",
+    "options": [
+      "Sr",
+      "Pu",
+      "B",
+      "K"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet barium?",
+    "answer": "Ba",
+    "options": [
+      "Ba",
+      "Rn",
+      "Be",
+      "Ar"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Psycho (1960)?",
+    "answer": "Alfred Hitchcock",
+    "options": [
+      "Alfred Hitchcock",
+      "Damien Chazelle",
+      "Francis Ford Coppola",
+      "Ridley Scott"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Azerbajdzjan?",
+    "answer": "Baku",
+    "options": [
+      "Baku",
+      "Santo Domingo",
+      "Buenos Aires",
+      "Singapore"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken sport använder begreppet touchdown?",
+    "answer": "Amerikansk fotboll",
+    "options": [
+      "Amerikansk fotboll",
+      "Rugby union",
+      "Baseboll",
+      "Basket"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Senegal?",
+    "answer": "Dakar",
+    "options": [
+      "Dakar",
+      "Maputo",
+      "Paris",
+      "Skopje"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet fluor?",
+    "answer": "F",
+    "options": [
+      "F",
+      "Si",
+      "Cu",
+      "I"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nigeria?",
+    "answer": "Abuja",
+    "options": [
+      "Abuja",
+      "Gaborone",
+      "Reykjavik",
+      "Podgorica"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet palladium?",
+    "answer": "Pd",
+    "options": [
+      "Pd",
+      "Li",
+      "Na",
+      "Au"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många poäng ger en touchdown i amerikansk fotboll utan extrapoäng?",
+    "answer": "6",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kol?",
+    "answer": "C",
+    "options": [
+      "C",
+      "Na",
+      "K",
+      "Ti"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många dagar tar det ungefär för månen att gå ett varv runt jorden relativt stjärnorna?",
+    "answer": "27",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad heter jordens yttersta fasta skal?",
+    "answer": "Jordskorpan",
+    "options": [
+      "Jordskorpan",
+      "Manteln",
+      "Yttre kärnan",
+      "Inre kärnan"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har huvudstaden Reykjavik?",
+    "answer": "Island",
+    "options": [
+      "Island",
+      "Irland",
+      "Norge",
+      "Estland"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år dog Gustav II Adolf vid Lützen?",
+    "answer": "1632",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken svensk grupp vann Eurovision 1974 med Waterloo?",
+    "answer": "ABBA",
+    "options": [
+      "ABBA",
+      "Roxette",
+      "Ace of Base",
+      "The Cardigans"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år sjönk Titanic?",
+    "answer": "1912",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många kilometer lång är Göta kanal (ungefär)?",
+    "answer": "190",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet radon?",
+    "answer": "Rn",
+    "options": [
+      "Rn",
+      "H",
+      "F",
+      "Zn"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Portugal?",
+    "answer": "Lissabon",
+    "options": [
+      "Lissabon",
+      "Budapest",
+      "Luxemburg",
+      "Kingston"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Libanon?",
+    "answer": "Beirut",
+    "options": [
+      "Beirut",
+      "Tunis",
+      "Lusaka",
+      "Lissabon"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vad kallades skeppen som vikingarna ofta seglade i?",
+    "answer": "Långskepp",
+    "options": [
+      "Långskepp",
+      "Galeoner",
+      "Koggar",
+      "Korvetter"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen The Dark Knight (2008)?",
+    "answer": "Christopher Nolan",
+    "options": [
+      "Christopher Nolan",
+      "Damien Chazelle",
+      "Ridley Scott",
+      "Steven Spielberg"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Blade Runner (1982)?",
+    "answer": "Ridley Scott",
+    "options": [
+      "Ridley Scott",
+      "Wes Anderson",
+      "James Cameron",
+      "Steven Spielberg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Den stora Gatsby”?",
+    "answer": "F. Scott Fitzgerald",
+    "options": [
+      "F. Scott Fitzgerald",
+      "Stieg Larsson",
+      "Edgar Allan Poe",
+      "Astrid Lindgren"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist gav ut albumet Thriller?",
+    "answer": "Michael Jackson",
+    "options": [
+      "Michael Jackson",
+      "Prince",
+      "Madonna",
+      "Stevie Wonder"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Botswana?",
+    "answer": "Gaborone",
+    "options": [
+      "Gaborone",
+      "Port Moresby",
+      "Warszawa",
+      "Dublin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många öar består Hawaii av om man räknar de åtta huvudöarna?",
+    "answer": "8",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad används en kompass främst för?",
+    "answer": "Visa väderstreck",
+    "options": [
+      "Visa väderstreck",
+      "Mäta temperatur",
+      "Mäta längd",
+      "Väga föremål"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken planet har de mest välkända ringarna?",
+    "answer": "Saturnus",
+    "options": [
+      "Saturnus",
+      "Mars",
+      "Merkurius",
+      "Venus"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Moby Dick”?",
+    "answer": "Herman Melville",
+    "options": [
+      "Herman Melville",
+      "William Golding",
+      "Lewis Carroll",
+      "August Strindberg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken svensk grupp hade en hit med Cotton Eye Joe?",
+    "answer": "Rednex",
+    "options": [
+      "Rednex",
+      "Dr. Bombay",
+      "E-Type",
+      "Aqua"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilken idrott har grenarna slalom och störtlopp?",
+    "answer": "Alpin skidåkning",
+    "options": [
+      "Alpin skidåkning",
+      "Längdskidåkning",
+      "Skidskytte",
+      "Backhoppning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet vanadin?",
+    "answer": "V",
+    "options": [
+      "V",
+      "Rb",
+      "He",
+      "S"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Litauen?",
+    "answer": "Vilnius",
+    "options": [
+      "Vilnius",
+      "Baku",
+      "Managua",
+      "Katmandu"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Mio, min Mio”?",
+    "answer": "Astrid Lindgren",
+    "options": [
+      "Astrid Lindgren",
+      "William Golding",
+      "J.R.R. Tolkien",
+      "F. Scott Fitzgerald"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många milliliter går på en liter?",
+    "answer": "1000",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken världsdel finns inga vilda isbjörnar naturligt i?",
+    "answer": "Antarktis",
+    "options": [
+      "Antarktis",
+      "Nordamerika",
+      "Europa",
+      "Asien"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Japan?",
+    "answer": "Tokyo",
+    "options": [
+      "Tokyo",
+      "Sri Jayawardenepura Kotte",
+      "Teheran",
+      "Abuja"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Danmark?",
+    "answer": "Köpenhamn",
+    "options": [
+      "Köpenhamn",
+      "Aten",
+      "Podgorica",
+      "Baku"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet brom?",
+    "answer": "Br",
+    "options": [
+      "Br",
+      "Sr",
+      "Ir",
+      "Si"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år inleddes andra världskriget i Europa?",
+    "answer": "1939",
+    "options": [
+      "1939",
+      "1914",
+      "1941",
+      "1945"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Ringaren i Notre-Dame”?",
+    "answer": "Victor Hugo",
+    "options": [
+      "Victor Hugo",
+      "J.R.R. Tolkien",
+      "Agatha Christie",
+      "Lewis Carroll"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter cowboyen i Toy Story?",
+    "answer": "Woody",
+    "options": [
+      "Woody",
+      "Buzz",
+      "Andy",
+      "Rex"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många spelare per lag finns på planen i vanlig fotboll?",
+    "answer": "11",
+    "options": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet zink?",
+    "answer": "Zn",
+    "options": [
+      "Zn",
+      "Sn",
+      "I",
+      "Ir"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "I vilket land ligger staden Barcelona?",
+    "answer": "Spanien",
+    "options": [
+      "Spanien",
+      "Portugal",
+      "Italien",
+      "Frankrike"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Moçambique?",
+    "answer": "Maputo",
+    "options": [
+      "Maputo",
+      "Oslo",
+      "Bratislava",
+      "Tallinn"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Etiopien?",
+    "answer": "Addis Abeba",
+    "options": [
+      "Addis Abeba",
+      "Luanda",
+      "Oslo",
+      "Ljubljana"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "På vilken ö ligger Reykjavik?",
+    "answer": "Island",
+    "options": [
+      "Island",
+      "Grönland",
+      "Irland",
+      "Färöarna"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter över havet är Mount Everest (avrundat)?",
+    "answer": "8849",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år invigdes Öresundsbron?",
+    "answer": "2000",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många kromosomer har en människa i en vanlig kroppscell?",
+    "answer": "46",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter Sveriges största ö?",
+    "answer": "Gotland",
+    "options": [
+      "Gotland",
+      "Öland",
+      "Orust",
+      "Värmdö"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Costa Rica?",
+    "answer": "San José",
+    "options": [
+      "San José",
+      "Caracas",
+      "New Delhi",
+      "Riyadh"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Fåglarna (1963)?",
+    "answer": "Alfred Hitchcock",
+    "options": [
+      "Alfred Hitchcock",
+      "Lana och Lilly Wachowski",
+      "Frank Darabont",
+      "Wes Anderson"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band är känt för låten Highway to Hell?",
+    "answer": "AC/DC",
+    "options": [
+      "AC/DC",
+      "Kiss",
+      "Aerosmith",
+      "ZZ Top"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Albanien?",
+    "answer": "Tirana",
+    "options": [
+      "Tirana",
+      "Bern",
+      "Baku",
+      "Santiago"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Italien?",
+    "answer": "Rom",
+    "options": [
+      "Rom",
+      "Bukarest",
+      "Bern",
+      "Port-au-Prince"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Iran?",
+    "answer": "Teheran",
+    "options": [
+      "Teheran",
+      "Muskat",
+      "Accra",
+      "Reykjavik"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Hemsöborna”?",
+    "answer": "August Strindberg",
+    "options": [
+      "August Strindberg",
+      "Fjodor Dostojevskij",
+      "Charles Dickens",
+      "C.S. Lewis"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vad heter trollkarlen som går på Hogwarts?",
+    "answer": "Harry Potter",
+    "options": [
+      "Harry Potter",
+      "Frodo Bagger",
+      "Percy Jackson",
+      "Bilbo Bagger"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad kallas vatten i gasform?",
+    "answer": "Vattenånga",
+    "options": [
+      "Vattenånga",
+      "Is",
+      "Dimma",
+      "Snö"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken egyptisk drottning är känd för sina relationer med Julius Caesar och Marcus Antonius?",
+    "answer": "Kleopatra",
+    "options": [
+      "Kleopatra",
+      "Nefertiti",
+      "Hatshepsut",
+      "Arsinoe"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många millimeter går på en centimeter?",
+    "answer": "10",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad står OS för på svenska?",
+    "answer": "Olympiska spelen",
+    "options": [
+      "Olympiska spelen",
+      "Orienteringssällskapet",
+      "Olympiska samfundet",
+      "Officiella spelen"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken upptäcktsresande seglade över Atlanten 1492?",
+    "answer": "Christofer Columbus",
+    "options": [
+      "Christofer Columbus",
+      "Ferdinand Magellan",
+      "James Cook",
+      "Vasco da Gama"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist sjöng Jolene?",
+    "answer": "Dolly Parton",
+    "options": [
+      "Dolly Parton",
+      "Shania Twain",
+      "Reba McEntire",
+      "Loretta Lynn"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist förknippas med låten Born in the U.S.A.?",
+    "answer": "Bruce Springsteen",
+    "options": [
+      "Bruce Springsteen",
+      "Bryan Adams",
+      "Bob Dylan",
+      "John Mellencamp"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många set behövs för att vinna en bäst-av-fem-set-tennismatch?",
+    "answer": "3",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kuba?",
+    "answer": "Havanna",
+    "options": [
+      "Havanna",
+      "Tegucigalpa",
+      "Sucre",
+      "Astana"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Avatar (2009)?",
+    "answer": "James Cameron",
+    "options": [
+      "James Cameron",
+      "Quentin Tarantino",
+      "Lana och Lilly Wachowski",
+      "Damien Chazelle"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nya Zeeland?",
+    "answer": "Wellington",
+    "options": [
+      "Wellington",
+      "Reykjavik",
+      "Bukarest",
+      "Kyiv"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många timmar går på ett dygn?",
+    "answer": "24",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många spelare finns på planen i ett basketlag?",
+    "answer": "5",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad är den svenska valutan?",
+    "answer": "Krona",
+    "options": [
+      "Krona",
+      "Euro",
+      "Pund",
+      "Dollar"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många poäng får man vid ett straffkast i basket?",
+    "answer": "1",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Forrest Gump (1994)?",
+    "answer": "Robert Zemeckis",
+    "options": [
+      "Robert Zemeckis",
+      "Steven Spielberg",
+      "Quentin Tarantino",
+      "Lana och Lilly Wachowski"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Don Quijote”?",
+    "answer": "Miguel de Cervantes",
+    "options": [
+      "Miguel de Cervantes",
+      "Daniel Defoe",
+      "Jonas Jonasson",
+      "Edgar Allan Poe"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Oliver Twist”?",
+    "answer": "Charles Dickens",
+    "options": [
+      "Charles Dickens",
+      "Edgar Allan Poe",
+      "Jonas Jonasson",
+      "Lewis Carroll"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Anna Karenina”?",
+    "answer": "Lev Tolstoj",
+    "options": [
+      "Lev Tolstoj",
+      "Mary Shelley",
+      "J.R.R. Tolkien",
+      "Selma Lagerlöf"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band sjöng Wonderwall?",
+    "answer": "Oasis",
+    "options": [
+      "Oasis",
+      "Blur",
+      "Coldplay",
+      "Radiohead"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist gav ut albumet 25 år 2015?",
+    "answer": "Adele",
+    "options": [
+      "Adele",
+      "Taylor Swift",
+      "Katy Perry",
+      "Beyoncé"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Ecuador?",
+    "answer": "Quito",
+    "options": [
+      "Quito",
+      "Sucre",
+      "Vientiane",
+      "Alger"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Schindlers list (1993)?",
+    "answer": "Steven Spielberg",
+    "options": [
+      "Steven Spielberg",
+      "Peter Jackson",
+      "Wes Anderson",
+      "Quentin Tarantino"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band gjorde låten Livin’ on a Prayer?",
+    "answer": "Bon Jovi",
+    "options": [
+      "Bon Jovi",
+      "Journey",
+      "Europe",
+      "Def Leppard"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken gas är vanligast i jordens atmosfär?",
+    "answer": "Kväve",
+    "options": [
+      "Kväve",
+      "Syre",
+      "Koldioxid",
+      "Argon"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken planet är känd som den röda planeten?",
+    "answer": "Mars",
+    "options": [
+      "Mars",
+      "Venus",
+      "Uranus",
+      "Neptunus"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken kontinent ligger Sahara på?",
+    "answer": "Afrika",
+    "options": [
+      "Afrika",
+      "Asien",
+      "Australien",
+      "Sydamerika"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Zambia?",
+    "answer": "Lusaka",
+    "options": [
+      "Lusaka",
+      "Wellington",
+      "Rom",
+      "Luxemburg"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många minuter är en ordinarie fotbollsmatch utan tilläggstid?",
+    "answer": "90",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken världsdel ligger Kenya i?",
+    "answer": "Afrika",
+    "options": [
+      "Afrika",
+      "Asien",
+      "Europa",
+      "Sydamerika"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Rumänien?",
+    "answer": "Bukarest",
+    "options": [
+      "Bukarest",
+      "Sarajevo",
+      "Chișinău",
+      "San Salvador"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kanada?",
+    "answer": "Ottawa",
+    "options": [
+      "Ottawa",
+      "San José",
+      "Montevideo",
+      "Manila"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Libyen?",
+    "answer": "Tripoli",
+    "options": [
+      "Tripoli",
+      "Accra",
+      "Suva",
+      "Bukarest"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Inception (2010)?",
+    "answer": "Christopher Nolan",
+    "options": [
+      "Christopher Nolan",
+      "Ridley Scott",
+      "Frank Darabont",
+      "Francis Ford Coppola"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad använder en astronom för att studera avlägsna stjärnor?",
+    "answer": "Teleskop",
+    "options": [
+      "Teleskop",
+      "Mikroskop",
+      "Stetoskop",
+      "Periskop"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kina?",
+    "answer": "Peking",
+    "options": [
+      "Peking",
+      "Hanoi",
+      "Riyadh",
+      "Dakar"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kobolt?",
+    "answer": "Co",
+    "options": [
+      "Co",
+      "U",
+      "Cs",
+      "N"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många grader Celsius kokar vatten vid normalt lufttryck?",
+    "answer": "100",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år öppnade Disneyland i Kalifornien?",
+    "answer": "1955",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Irak?",
+    "answer": "Bagdad",
+    "options": [
+      "Bagdad",
+      "Kairo",
+      "Dakar",
+      "Berlin"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många meter lång är Ölandsbron (ungefär)?",
+    "answer": "6072",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många poäng kan man maximalt få med tre pilar i dart?",
+    "answer": "180",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "number",
+    "question": "Hur många länder gränsar direkt till Sverige på land?",
+    "answer": "2",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Belarus?",
+    "answer": "Minsk",
+    "options": [
+      "Minsk",
+      "Mexico City",
+      "Caracas",
+      "Hanoi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Georgien?",
+    "answer": "Tbilisi",
+    "options": [
+      "Tbilisi",
+      "Kingston",
+      "Lima",
+      "Vientiane"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Slovakien?",
+    "answer": "Bratislava",
+    "options": [
+      "Bratislava",
+      "Belgrad",
+      "Riga",
+      "Guatemala City"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilket brädspel har gator och hotell?",
+    "answer": "Monopol",
+    "options": [
+      "Monopol",
+      "Risk",
+      "Cluedo",
+      "Schack"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken veckodag kommer efter torsdag?",
+    "answer": "Fredag",
+    "options": [
+      "Fredag",
+      "Lördag",
+      "Onsdag",
+      "Tisdag"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Sherlock Holmes: En studie i rött”?",
+    "answer": "Arthur Conan Doyle",
+    "options": [
+      "Arthur Conan Doyle",
+      "Charles Dickens",
+      "Daniel Defoe",
+      "Jane Austen"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist sjöng Like a Virgin?",
+    "answer": "Madonna",
+    "options": [
+      "Madonna",
+      "Cyndi Lauper",
+      "Whitney Houston",
+      "Cher"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har Taj Mahal?",
+    "answer": "Indien",
+    "options": [
+      "Indien",
+      "Pakistan",
+      "Iran",
+      "Nepal"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Haiti?",
+    "answer": "Port-au-Prince",
+    "options": [
+      "Port-au-Prince",
+      "San Salvador",
+      "Seoul",
+      "Teheran"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken flod rinner genom London?",
+    "answer": "Themsen",
+    "options": [
+      "Themsen",
+      "Seine",
+      "Donau",
+      "Po"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många tänder har en vuxen människa normalt inklusive visdomständer?",
+    "answer": "32",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Egypten?",
+    "answer": "Kairo",
+    "options": [
+      "Kairo",
+      "Addis Abeba",
+      "Maputo",
+      "Prag"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band hade Freddie Mercury som sångare?",
+    "answer": "Queen",
+    "options": [
+      "Queen",
+      "Genesis",
+      "U2",
+      "Bon Jovi"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Ronja Rövardotter”?",
+    "answer": "Astrid Lindgren",
+    "options": [
+      "Astrid Lindgren",
+      "J.R.R. Tolkien",
+      "Agatha Christie",
+      "Fjodor Dostojevskij"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Gudfadern (1972)?",
+    "answer": "Francis Ford Coppola",
+    "options": [
+      "Francis Ford Coppola",
+      "James Cameron",
+      "Wes Anderson",
+      "Christopher Nolan"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har en lönnlövssymbol på sin flagga?",
+    "answer": "Kanada",
+    "options": [
+      "Kanada",
+      "Nya Zeeland",
+      "Australien",
+      "USA"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land har huvudstaden Oslo?",
+    "answer": "Norge",
+    "options": [
+      "Norge",
+      "Finland",
+      "Danmark",
+      "Island"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken flod rinner genom Paris?",
+    "answer": "Seine",
+    "options": [
+      "Seine",
+      "Themsen",
+      "Donau",
+      "Rhen"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Turkiet?",
+    "answer": "Ankara",
+    "options": [
+      "Ankara",
+      "Havanna",
+      "Quito",
+      "Phnom Penh"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Tjeckien?",
+    "answer": "Prag",
+    "options": [
+      "Prag",
+      "Ljubljana",
+      "Tallinn",
+      "Panama City"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Tunisien?",
+    "answer": "Tunis",
+    "options": [
+      "Tunis",
+      "Abuja",
+      "Wellington",
+      "Budapest"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många hål spelas på en vanlig full golfbana?",
+    "answer": "18",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilken stad ödelades av Vesuvius år 79?",
+    "answer": "Pompeji",
+    "options": [
+      "Pompeji",
+      "Aten",
+      "Kartago",
+      "Alexandria"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vad heter kroppens största organ?",
+    "answer": "Huden",
+    "options": [
+      "Huden",
+      "Hjärtat",
+      "Levern",
+      "Lungan"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet kalium?",
+    "answer": "K",
+    "options": [
+      "K",
+      "Ag",
+      "Cr",
+      "Rn"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist sjöng Hello från albumet 25?",
+    "answer": "Adele",
+    "options": [
+      "Adele",
+      "Sia",
+      "Beyoncé",
+      "Ellie Goulding"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet tenn?",
+    "answer": "Sn",
+    "options": [
+      "Sn",
+      "Ti",
+      "Ba",
+      "B"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet titan?",
+    "answer": "Ti",
+    "options": [
+      "Ti",
+      "W",
+      "Rn",
+      "Ne"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år upphörde Sovjetunionen att existera?",
+    "answer": "1991",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många kanter har en kub?",
+    "answer": "12",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Qatar?",
+    "answer": "Doha",
+    "options": [
+      "Doha",
+      "Nairobi",
+      "Gaborone",
+      "Aten"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Venezuela?",
+    "answer": "Caracas",
+    "options": [
+      "Caracas",
+      "Brasília",
+      "Phnom Penh",
+      "Rabat"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken planet ligger närmast solen?",
+    "answer": "Merkurius",
+    "options": [
+      "Merkurius",
+      "Venus",
+      "Mars",
+      "Jupiter"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken artist sjöng Rolling in the Deep?",
+    "answer": "Adele",
+    "options": [
+      "Adele",
+      "Amy Winehouse",
+      "Rihanna",
+      "Sia"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Hobbiten”?",
+    "answer": "J.R.R. Tolkien",
+    "options": [
+      "J.R.R. Tolkien",
+      "Ernest Hemingway",
+      "Arthur Conan Doyle",
+      "Astrid Lindgren"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Jamaica?",
+    "answer": "Kingston",
+    "options": [
+      "Kingston",
+      "Managua",
+      "Tokyo",
+      "Tasjkent"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Irland?",
+    "answer": "Dublin",
+    "options": [
+      "Dublin",
+      "Minsk",
+      "San José",
+      "Peking"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Polen?",
+    "answer": "Warszawa",
+    "options": [
+      "Warszawa",
+      "Zagreb",
+      "London",
+      "San José"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många spelare har ett innebandylag på planen inklusive målvakt?",
+    "answer": "6",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många rutor finns på ett schackbräde totalt?",
+    "answer": "64",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Nils Holgerssons underbara resa genom Sverige”?",
+    "answer": "Selma Lagerlöf",
+    "options": [
+      "Selma Lagerlöf",
+      "Ernest Hemingway",
+      "Herman Melville",
+      "Charles Dickens"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många minuter är en period i herrarnas ishockey enligt internationella regler?",
+    "answer": "20",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Malaysia?",
+    "answer": "Kuala Lumpur",
+    "options": [
+      "Kuala Lumpur",
+      "Teheran",
+      "Tripoli",
+      "Wellington"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Luxemburg?",
+    "answer": "Luxemburg",
+    "options": [
+      "Luxemburg",
+      "Kyiv",
+      "Port-au-Prince",
+      "Tokyo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år började första världskriget?",
+    "answer": "1914",
+    "options": [
+      "1914",
+      "1905",
+      "1918",
+      "1939"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Indien?",
+    "answer": "New Delhi",
+    "options": [
+      "New Delhi",
+      "Phnom Penh",
+      "Amman",
+      "Yaoundé"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken världsdel ligger Peru i?",
+    "answer": "Sydamerika",
+    "options": [
+      "Sydamerika",
+      "Afrika",
+      "Asien",
+      "Europa"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Madagaskar?",
+    "answer": "Antananarivo",
+    "options": [
+      "Antananarivo",
+      "Helsingfors",
+      "Wien",
+      "Riga"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Oman?",
+    "answer": "Muskat",
+    "options": [
+      "Muskat",
+      "Kampala",
+      "Windhoek",
+      "Warszawa"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Brott och straff”?",
+    "answer": "Fjodor Dostojevskij",
+    "options": [
+      "Fjodor Dostojevskij",
+      "Jonas Jonasson",
+      "Victor Hugo",
+      "George Orwell"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad kallas en triangel med tre lika långa sidor?",
+    "answer": "Liksidig triangel",
+    "options": [
+      "Liksidig triangel",
+      "Likbent triangel",
+      "Rätvinklig triangel",
+      "Trubbvinklig triangel"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Ghana?",
+    "answer": "Accra",
+    "options": [
+      "Accra",
+      "Windhoek",
+      "Berlin",
+      "Sarajevo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många kort finns i en vanlig kortlek utan jokrar?",
+    "answer": "52",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vad heter Sveriges nationaldag?",
+    "answer": "6 juni",
+    "options": [
+      "6 juni",
+      "1 maj",
+      "24 december",
+      "21 juni"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet nickel?",
+    "answer": "Ni",
+    "options": [
+      "Ni",
+      "Pt",
+      "Sr",
+      "C"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Belgien?",
+    "answer": "Bryssel",
+    "options": [
+      "Bryssel",
+      "Riga",
+      "Havanna",
+      "Brasília"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Pippi Långstrump”?",
+    "answer": "Astrid Lindgren",
+    "options": [
+      "Astrid Lindgren",
+      "Fjodor Dostojevskij",
+      "Herman Melville",
+      "Charles Dickens"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Honduras?",
+    "answer": "Tegucigalpa",
+    "options": [
+      "Tegucigalpa",
+      "Santiago",
+      "Katmandu",
+      "Abu Dhabi"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Den lille prinsen”?",
+    "answer": "Antoine de Saint-Exupéry",
+    "options": [
+      "Antoine de Saint-Exupéry",
+      "Jane Austen",
+      "Edgar Allan Poe",
+      "Victor Hugo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilken svensk artist gjorde låten Euphoria?",
+    "answer": "Loreen",
+    "options": [
+      "Loreen",
+      "Måns Zelmerlöw",
+      "Carola",
+      "Sanna Nielsen"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Musik",
+    "kind": "choice",
+    "question": "Vilket band gjorde låten Enter Sandman?",
+    "answer": "Metallica",
+    "options": [
+      "Metallica",
+      "Slayer",
+      "Megadeth",
+      "Iron Maiden"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Robinson Crusoe”?",
+    "answer": "Daniel Defoe",
+    "options": [
+      "Daniel Defoe",
+      "C.S. Lewis",
+      "Charles Dickens",
+      "J.R.R. Tolkien"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket hav ligger öster om Sverige?",
+    "answer": "Östersjön",
+    "options": [
+      "Östersjön",
+      "Nordsjön",
+      "Medelhavet",
+      "Svarta havet"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Morden på Rue Morgue”?",
+    "answer": "Edgar Allan Poe",
+    "options": [
+      "Edgar Allan Poe",
+      "Lev Tolstoj",
+      "Stieg Larsson",
+      "George Orwell"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Marocko?",
+    "answer": "Rabat",
+    "options": [
+      "Rabat",
+      "Kigali",
+      "Antananarivo",
+      "Bratislava"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilket organ pumpar blod runt kroppen?",
+    "answer": "Hjärtat",
+    "options": [
+      "Hjärtat",
+      "Levern",
+      "Lungorna",
+      "Njuren"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många månar har Mars?",
+    "answer": "2",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "number",
+    "question": "Hur många käglor finns uppställda i bowling?",
+    "answer": "10",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet koppar?",
+    "answer": "Cu",
+    "options": [
+      "Cu",
+      "Pb",
+      "U",
+      "Os"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Ungern?",
+    "answer": "Budapest",
+    "options": [
+      "Budapest",
+      "Podgorica",
+      "Kyiv",
+      "Managua"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket århundrade började år 1801?",
+    "answer": "1800-talet",
+    "options": [
+      "1800-talet",
+      "1700-talet",
+      "1900-talet",
+      "1600-talet"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Hajen (1975)?",
+    "answer": "Steven Spielberg",
+    "options": [
+      "Steven Spielberg",
+      "James Cameron",
+      "Frank Darabont",
+      "Wes Anderson"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Blandat",
+    "kind": "number",
+    "question": "Hur många sidor har en vanlig tärning?",
+    "answer": "6",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år grundades FN?",
+    "answer": "1945",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många grundämnen finns i periodiska systemet enligt IUPAC år 2026?",
+    "answer": "118",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet iridium?",
+    "answer": "Ir",
+    "options": [
+      "Ir",
+      "B",
+      "Al",
+      "Pb"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Vietnam?",
+    "answer": "Hanoi",
+    "options": [
+      "Hanoi",
+      "Ulaanbaatar",
+      "Rabat",
+      "Maputo"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Hur många perioder spelas normalt i ishockey?",
+    "answer": "3",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilken ocean ligger mellan Europa och Amerika?",
+    "answer": "Atlanten",
+    "options": [
+      "Atlanten",
+      "Stilla havet",
+      "Indiska oceanen",
+      "Norra ishavet"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet svavel?",
+    "answer": "S",
+    "options": [
+      "S",
+      "Fe",
+      "Ni",
+      "Cs"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Brasilien?",
+    "answer": "Brasília",
+    "options": [
+      "Brasília",
+      "Dhaka",
+      "Astana",
+      "Kigali"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet platina?",
+    "answer": "Pt",
+    "options": [
+      "Pt",
+      "V",
+      "Pu",
+      "Na"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vad kallas sporten där man åker skidor och skjuter med gevär?",
+    "answer": "Skidskytte",
+    "options": [
+      "Skidskytte",
+      "Orientering",
+      "Nordisk kombination",
+      "Längdåkning"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år firades första Nobelfesten?",
+    "answer": "1901",
+    "options": [],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "I vilken sport används puck?",
+    "answer": "Ishockey",
+    "options": [
+      "Ishockey",
+      "Handboll",
+      "Basket",
+      "Innebandy"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år stod Stockholms stadshus klart?",
+    "answer": "1923",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Blandat",
+    "kind": "choice",
+    "question": "Vilken månad kommer direkt efter september?",
+    "answer": "Oktober",
+    "options": [
+      "Oktober",
+      "November",
+      "Augusti",
+      "December"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år slutade andra världskriget i Europa?",
+    "answer": "1945",
+    "options": [
+      "1945",
+      "1939",
+      "1941",
+      "1948"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "number",
+    "question": "Hur många meter per sekund är ljusets hastighet i vakuum (avrundat)?",
+    "answer": "299792458",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Harry Potter och de vises sten”?",
+    "answer": "J.K. Rowling",
+    "options": [
+      "J.K. Rowling",
+      "Lewis Carroll",
+      "J.R.R. Tolkien",
+      "Lev Tolstoj"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Kenya?",
+    "answer": "Nairobi",
+    "options": [
+      "Nairobi",
+      "Dakar",
+      "Port Moresby",
+      "Sofia"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Australien?",
+    "answer": "Canberra",
+    "options": [
+      "Canberra",
+      "Köpenhamn",
+      "Budapest",
+      "Vilnius"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år inträffade slaget vid Hastings?",
+    "answer": "1066",
+    "options": [],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket av dessa år var ett skottår?",
+    "answer": "2000",
+    "options": [
+      "2000",
+      "1900",
+      "2100",
+      "2200"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Rwanda?",
+    "answer": "Kigali",
+    "options": [
+      "Kigali",
+      "Lusaka",
+      "Helsingfors",
+      "Belgrad"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Historia",
+    "kind": "number",
+    "question": "Vilket år landade Apollo 11 på månen?",
+    "answer": "1969",
+    "options": [],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Historia",
+    "kind": "choice",
+    "question": "Vilket år föll Berlinmuren?",
+    "answer": "1989",
+    "options": [
+      "1989",
+      "1979",
+      "1991",
+      "1995"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Kultur & litteratur",
+    "kind": "choice",
+    "question": "Vem skrev boken ”Och så var de bara en”?",
+    "answer": "Agatha Christie",
+    "options": [
+      "Agatha Christie",
+      "Arthur Conan Doyle",
+      "F. Scott Fitzgerald",
+      "Victor Hugo"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Nordmakedonien?",
+    "answer": "Skopje",
+    "options": [
+      "Skopje",
+      "Tallinn",
+      "Mexico City",
+      "Asunción"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Hur många ben har en spindel?",
+    "answer": "8",
+    "options": [
+      "8",
+      "6",
+      "10",
+      "12"
+    ],
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vad heter huvudstaden i Zimbabwe?",
+    "answer": "Harare",
+    "options": [
+      "Harare",
+      "Suva",
+      "Aten",
+      "Bern"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Film & TV",
+    "kind": "choice",
+    "question": "Vem regisserade filmen Gladiator (2000)?",
+    "answer": "Ridley Scott",
+    "options": [
+      "Ridley Scott",
+      "Quentin Tarantino",
+      "Lana och Lilly Wachowski",
+      "Christopher Nolan"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Geografi",
+    "kind": "choice",
+    "question": "Vilket land ligger staden Kraków i?",
+    "answer": "Polen",
+    "options": [
+      "Polen",
+      "Tjeckien",
+      "Ungern",
+      "Slovakien"
+    ],
+    "difficulty": "medium"
+  },
+  {
+    "category": "Natur & vetenskap",
+    "kind": "choice",
+    "question": "Vilken kemisk beteckning har grundämnet radium?",
+    "answer": "Ra",
+    "options": [
+      "Ra",
+      "Ir",
+      "O",
+      "Cu"
+    ],
+    "difficulty": "hard"
+  },
+  {
+    "category": "Sport & fritid",
+    "kind": "choice",
+    "question": "Vilket schackpjäs kan hoppa över andra pjäser?",
+    "answer": "Springaren",
+    "options": [
+      "Springaren",
+      "Tornet",
+      "Löparen",
+      "Drottningen"
+    ],
+    "difficulty": "medium"
+  }
+]
