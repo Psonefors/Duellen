@@ -135,7 +135,7 @@ class _RacePageState extends State<RacePage> {
                 child:Icon(Icons.directions_car_filled_rounded,color:e.color,size:30)),
             ]))),
             SizedBox(width:48,child:Text('${e.distance.toInt()} m',textAlign:TextAlign.right,style:const TextStyle(fontSize:10))),
-          ])])).toList(),
+                    ])]))).toList(),
       ]));
   }
   Widget _podium(){
