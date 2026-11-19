@@ -26,7 +26,7 @@ jobs:
       - name: Ordna projektfiler
         run: |
           mkdir -p lib assets/web assets/data assets/audio
-          cp main.dart game.dart lib/
+          cp main.dart game.dart question_packs.dart race.dart lib/
           cp player.html assets/web/
           cp questions.json assets/data/
           cp next.wav reveal.wav win.wav tick.wav answer_music.wav assets/audio/
