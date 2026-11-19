@@ -5,6 +5,7 @@ import 'dart:math';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'question_packs.dart';
 
 class QuizQuestion {
   QuizQuestion(Map<String, dynamic> m)
@@ -52,6 +53,24 @@ class DuellenGame extends ChangeNotifier {
   }
   String questionKey(QuizQuestion q) => '${q.kind}|${q.prompt.trim().toLowerCase()}';
   List<QuizQuestion> questions = [];
+  int get badgeGoal => min(3, max(1, questions.map((q)=>q.category).toSet().length));
+  QuestionPack? selectedPack;
+  void setQuestionPack(QuestionPack pack) {
+    if (phase != 'lobby') return;
+    selectedPack=pack;
+    notifyListeners();
+  }
+  List<Map<String,dynamic>> newPlacements = [];
+  int celebrationEnds = 0;
+  Timer? celebrationTimer;
+  void _announcePlacements(List<QuizTeam> newly) {
+    if(newly.isEmpty)return;
+    newPlacements=newly.map((t)=>{'name':t.name,'place':t.place,'points':t.points,'badges':t.badges.length}).toList();
+    celebrationEnds=DateTime.now().millisecondsSinceEpoch+6500;
+    celebrationTimer?.cancel();
+    celebrationTimer=Timer(const Duration(milliseconds:6500),(){newPlacements=[];celebrationEnds=0;notifyListeners();});
+    notifyListeners();
+  }
   HttpServer? server;
   Timer? timer;
   String hostIp = '', error = '', phase = 'lobby', roundMode = 'normal';
@@ -74,7 +93,8 @@ class DuellenGame extends ChangeNotifier {
   String pickNextMode() {
     // Balanserad slump: färre relations- och närmast-rundor än kunskapsfrågor.
     const bag=['normal','normal','normal','risk','risk','duel','duel','closest','surprise','relation','relation'];
-    final choices=bag.where((m)=>m!=lastMode && (m!='relation' || relationsMode!='manual' || (selectedFirst.isNotEmpty && selectedSecond.isNotEmpty && selectedFirst!=selectedSecond))).toList();
+    final hasNumbers=questions.any((q)=>q.kind=='number' && (difficulty=='mix'||q.difficulty==difficulty));
+    final choices=bag.where((m)=>m!=lastMode && (m!='closest'||hasNumbers) && (m!='relation' || relationsMode!='manual' || (selectedFirst.isNotEmpty && selectedSecond.isNotEmpty && selectedFirst!=selectedSecond))).toList();
     return choices[random.nextInt(choices.length)];
   }
   void nextRound() {
@@ -210,11 +230,16 @@ class DuellenGame extends ChangeNotifier {
   Future<void> startGame() async {
     if (teams.length < 2) { error = 'Minst två lag behövs.'; notifyListeners(); return; }
     try {
-      final raw = await rootBundle.loadString('assets/data/questions.json');
-      questions = (jsonDecode(raw) as List).map((x) => QuizQuestion(Map<String,dynamic>.from(x as Map))).toList();
-      if (questions.length < 20) throw StateError('Frågebanken är för liten');
+      final pack = selectedPack;
+      final entries = pack == null
+        ? (jsonDecode(await rootBundle.loadString('assets/data/questions.json')) as List)
+            .map((x)=>Map<String,dynamic>.from(x as Map)).toList()
+        : pack.questions;
+      questions = entries.map((x)=>QuizQuestion(x)).toList();
+      if (questions.length < 5) throw StateError('Frågepaketet behöver minst fem frågor.');
       await _loadHistory();
       round = 0; phase = 'ready'; error = ''; earlyEnded=false; winnersText=''; resultTimer?.cancel();
+      celebrationTimer?.cancel();newPlacements=[];celebrationEnds=0;
       current=null; lastMode=''; lastRelationPair.clear(); lastRelationQuestion='';
       for (final t in teams.values) {
         t.points = 0; t.bet = 1; t.betReady = false; t.answered = false;
@@ -374,7 +399,7 @@ class DuellenGame extends ChangeNotifier {
         t.verdict = t.answered ? 'Fel' : 'Inget svar';
         if (roundMode=='duel' && _correct(t)) t.verdict = 'Rätt, men motståndaren var snabbare';
       }
-      if (t.points >= 10 && t.badges.length >= 3) t.qualified = true;
+      if (t.points >= 10 && t.badges.length >= badgeGoal) t.qualified = true;
     }
     final newlyQualified = teams.values.where((t)=>t.qualified && t.place==null).toList()
       ..sort((a,b)=>b.points.compareTo(a.points));
@@ -391,6 +416,7 @@ class DuellenGame extends ChangeNotifier {
       if (eligible.isNotEmpty) eligible.first.place = teams.length;
       phase = 'finished';
     } else { phase = 'reveal'; }
+    _announcePlacements(newlyQualified);
     _scheduleNext();
     notifyListeners();
   }
@@ -426,7 +452,7 @@ class DuellenGame extends ChangeNotifier {
         relationSummary='Inget matchande svar. Inga poäng.';
       }
     }
-    for(final t in [a,b]){if(t.points>=10 && t.badges.length>=3)t.qualified=true;}
+    for(final t in [a,b]){if(t.points>=10 && t.badges.length>=badgeGoal)t.qualified=true;}
     _placeTeams();
     _scheduleNext();
     notifyListeners();
@@ -444,12 +470,13 @@ class DuellenGame extends ChangeNotifier {
     final active=eligible;
     if(active.length<=1){if(active.isNotEmpty)active.first.place=teams.length;phase='finished';}
     else phase='reveal';
+    _announcePlacements(newlyQualified);
   }
 
   void _scheduleNext() {
     resultTimer?.cancel();
     if(flowMode=='auto' && phase=='reveal') {
-      resultTimer=Timer(const Duration(seconds: 7), () {
+      resultTimer=Timer(const Duration(seconds: 9), () {
         if(phase=='reveal') nextRound();
       });
     }
@@ -458,7 +485,7 @@ class DuellenGame extends ChangeNotifier {
   // Ny match utan att avsluta appen. Behåller lag och den sparade frågehistoriken.
   void newMatch() {
     if(phase!='finished') return;
-    timer?.cancel(); resultTimer?.cancel();
+    timer?.cancel(); resultTimer?.cancel();celebrationTimer?.cancel();newPlacements=[];celebrationEnds=0;
     phase='lobby'; round=0; current=null; roundMode='normal';
     countdownStarted=0; questionStarted=0;
     earlyEnded=false; winnersText=''; error=''; lastMode='';
@@ -498,6 +525,8 @@ class DuellenGame extends ChangeNotifier {
     return {
       'phase': phase, 'round': round, 'mode': roundMode, 'flowMode':flowMode, 'difficulty':difficulty,
       'earlyEnded':earlyEnded,'winnersText':winnersText,
+      'newPlacements':newPlacements,'celebrationEnds':celebrationEnds,
+      'packName':selectedPack?.title??'Blandade ämnen','badgeGoal':badgeGoal,
       'countdownStarted':countdownStarted,'countdownSeconds':countdownSeconds,
       'now': DateTime.now().millisecondsSinceEpoch, 'started': questionStarted, 'seconds': questionSeconds,
       'category': (phase=='question'||revealNow) ? current?.category : null,

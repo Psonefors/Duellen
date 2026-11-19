@@ -3,6 +3,8 @@ import 'package:qr_flutter/qr_flutter.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 import 'game.dart';
+import 'question_packs.dart';
+import 'race.dart';
 
 const ink = Color(0xff101426);
 const panel = Color(0xff1b233d);
@@ -44,6 +46,31 @@ class HostPage extends StatefulWidget {
 
 class _HostPageState extends State<HostPage> {
   final game = DuellenGame();
+  final packUrlController = TextEditingController();
+  List<QuestionPack> packs = [];
+  String? packId;
+  bool packBusy = false;
+  Future<void> loadPacks() async {
+    try {
+      final all = await QuestionPackStore.all();
+      if (!mounted) return;
+      setState(() {
+        packs=all;
+        packId = all.any((p)=>p.id==packId)?packId:all.first.id;
+        game.setQuestionPack(all.firstWhere((p)=>p.id==packId));
+      });
+    } catch(e) {if(mounted)ScaffoldMessenger.of(context).showSnackBar(SnackBar(content:Text('Frågebank: $e')));}
+  }
+  Future<void> importPack({bool fromUrl=false}) async {
+    setState(()=>packBusy=true);
+    try {
+      final pack=fromUrl ? await QuestionPackStore.importUrl(packUrlController.text) : await QuestionPackStore.importFile();
+      if(pack!=null) {await loadPacks();if(mounted){setState(() {packId=pack.id;game.setQuestionPack(packs.firstWhere((p)=>p.id==pack.id));});
+        ScaffoldMessenger.of(context).showSnackBar(SnackBar(content:Text('Importerade ${pack.count} frågor: ${pack.title}')));}}
+    } catch(e){if(mounted)ScaffoldMessenger.of(context).showSnackBar(SnackBar(content:Text('Import misslyckades: $e')));}
+    finally {if(mounted)setState(()=>packBusy=false);}
+  }
+
   final ipController = TextEditingController();
   final sound = AudioPlayer();
   final answerMusic = AudioPlayer();
@@ -66,6 +93,7 @@ class _HostPageState extends State<HostPage> {
   void initState() {
     super.initState();
     game.addListener(_update);
+    loadPacks();
     game.startServer().then((_) {
       if (!mounted) return;
       localPlayer = WebViewController()
@@ -121,6 +149,7 @@ class _HostPageState extends State<HostPage> {
     game.removeListener(_update);
     game.dispose();
     ipController.dispose();
+    packUrlController.dispose();
     sound.dispose();
     answerMusic.dispose();
     tickSound.dispose();
@@ -256,7 +285,7 @@ class _HostPageState extends State<HostPage> {
           icon: Icon(soundOn ? Icons.volume_up_rounded : Icons.volume_off_rounded, color: lime),
         ), const SizedBox(width: 8)],
       ),
-      body: Column(children:[
+      body: Stack(children:[Column(children:[
         if(localPlayer!=null) Padding(padding:const EdgeInsets.symmetric(horizontal:12,vertical:6),
           child:SegmentedButton<bool>(segments:const [
             ButtonSegment(value:false,label:Text('🎤 Spelledare'),icon:Icon(Icons.settings_rounded)),
@@ -281,6 +310,14 @@ class _HostPageState extends State<HostPage> {
               '10 poäng + 3 kategorier för att gå i mål', style: const TextStyle(color: muted)),
           ]),
         ),
+        if(game.newPlacements.isNotEmpty && DateTime.now().millisecondsSinceEpoch<game.celebrationEnds)
+          Card(color:const Color(0xff5c4717),child:Padding(padding:const EdgeInsets.all(22),child:Column(children:[
+            const Icon(Icons.emoji_events_rounded,size:64,color:Color(0xffffd46c)),
+            const Text('🏆 MÅLGÅNG!',style:TextStyle(fontSize:28,fontWeight:FontWeight.w900)),
+            for(final p in game.newPlacements)Text('${p['place']}:A PLATS – ${p['name']} • ${p['points']} poäng',
+              textAlign:TextAlign.center,style:const TextStyle(fontSize:22,fontWeight:FontWeight.bold)),
+            const Text('Övriga deltagare fortsätter kampen om placeringarna.'),
+          ]))),
         if (game.error.isNotEmpty) Card(color: const Color(0xff693339), child: Padding(
           padding: const EdgeInsets.all(14), child: Text(game.error))),
         if (lobby) ...[
@@ -332,6 +369,23 @@ class _HostPageState extends State<HostPage> {
                 style: TextStyle(color: muted, fontSize: 12),
               )),
           ]), icon: Icons.tune_rounded),
+
+          panelCard('📚 Frågepaket och Kunskapsracet', Column(crossAxisAlignment:CrossAxisAlignment.stretch,children:[
+            if(packs.isEmpty)const Text('Läser frågebank ...') else DropdownButtonFormField<String>(
+              value:packId,decoration:const InputDecoration(labelText:'Aktivt frågepaket'),
+              items:packs.map((p)=>DropdownMenuItem(value:p.id,child:Text('${p.title} (${p.count})',overflow:TextOverflow.ellipsis))).toList(),
+              onChanged:(v){if(v!=null){setState(()=>packId=v);game.setQuestionPack(packs.firstWhere((p)=>p.id==v));}}),
+            const SizedBox(height:12),
+            FilledButton.tonalIcon(onPressed:packBusy?null:()=>importPack(),icon:const Icon(Icons.file_upload_outlined),label:const Text('IMPORTERA JSON-FIL')),
+            const SizedBox(height:10),
+            TextField(controller:packUrlController,decoration:const InputDecoration(labelText:'Direktlänk till frågepaket (HTTPS)',hintText:'https://.../fragor.json'),keyboardType:TextInputType.url),
+            const SizedBox(height:9),
+            FilledButton.tonalIcon(onPressed:packBusy?null:()=>importPack(fromUrl:true),icon:const Icon(Icons.cloud_download_outlined),label:const Text('HÄMTA FRÅGOR VIA LÄNK')),
+            const SizedBox(height:12),
+            FilledButton.icon(onPressed:packs.isEmpty?null:()=>Navigator.of(context).push(MaterialPageRoute(builder:(_)=>RacePage(packs:packs))),
+              icon:const Icon(Icons.directions_car),label:const Text('🏎️ KUNSKAPSRACET – ENSAM')),
+            const SizedBox(height:7),const Text('Frågepaket hämtas/importeras före matchen och sparas på den här telefonen. Själva duellen körs lokalt.',style:TextStyle(color:muted,fontSize:12)),
+          ]),icon:Icons.library_books_outlined),
           panelCard('2. QR-kod och anslutning', Column(children: [
             const Text('Alla använder samma Wi-Fi eller huvudtelefonens hotspot.'),
             const SizedBox(height: 12),
@@ -454,11 +508,26 @@ class _HostPageState extends State<HostPage> {
           ])),
         ],
         const SizedBox(height: 10),
-        const Text('DUELLEN v0.6 • 10 poäng + 3 kategorier', textAlign: TextAlign.center,
+        const Text('DUELLEN v0.7 • 10 poäng + 3 kategorier', textAlign: TextAlign.center,
           style: TextStyle(color: muted, fontSize: 12)),
       ]),
       if(localPlayer!=null) WebViewWidget(controller:localPlayer!) else const Center(child:CircularProgressIndicator()),
       ]))]),
+      if (game.newPlacements.isNotEmpty && DateTime.now().millisecondsSinceEpoch < game.celebrationEnds)
+        Positioned.fill(child:Container(color:const Color(0xf5111425),padding:const EdgeInsets.all(24),
+          child:Center(child:SingleChildScrollView(child:Column(mainAxisSize:MainAxisSize.min,children:[
+            const Icon(Icons.emoji_events,size:100,color:Color(0xffffd46c)),
+            const Text('🏆 MÅLGÅNG!',textAlign:TextAlign.center,style:TextStyle(color:Color(0xffffd46c),fontSize:38,fontWeight:FontWeight.w900)),
+            const SizedBox(height:24),
+            for(final p in game.newPlacements)...[
+              Text('${p['place']}:A PLATS',style:const TextStyle(fontSize:32,color:lime,fontWeight:FontWeight.w900)),
+              Text('${p['name']}',textAlign:TextAlign.center,style:const TextStyle(fontSize:28,fontWeight:FontWeight.bold)),
+              Text('${p['points']} poäng · ${p['badges']} kategorimärken',style:const TextStyle(fontSize:17,color:muted)),
+              const SizedBox(height:20),
+            ],
+            const Text('Övriga fortsätter om placeringarna',textAlign:TextAlign.center,style:TextStyle(fontSize:16)),
+          ]))))),
+    ]),
     );
   }
 }

@@ -17,12 +17,16 @@ body.question-active #content .choices button {min-height:92px;font-size:clamp(1
 body.question-active #content input {font-size:25px;text-align:center;height:65px}
 body.question-active #content button {min-height:66px}
 body.question-active #content .waitAnswer {text-align:center;font-size:23px;margin-top:25px}
+
+#finishSplash{display:none;position:fixed;inset:0;z-index:9999;background:radial-gradient(circle at center,#443616,#0e1223 78%);padding:24px;align-items:center;justify-content:center;flex-direction:column;text-align:center;color:white}
+#finishSplash.active{display:flex}#finishSplash .cup{font-size:85px}#finishSplash h1{font-size:clamp(32px,8vw,60px);color:#ffd563;margin:12px 0}#finishSplash h2{font-size:clamp(22px,6vw,38px)}
 </style></head><body>
 <div class="hero"><div class="row"><div><small class="accent">FAMILJ • VÄNNER • TAKTIK</small><h1>⚔️ DUELLEN</h1></div><span class="tag" id="round">LOBBY</span></div><p class="sub" style="margin-bottom:0">10 poäng + 3 kategorier för att gå i mål</p></div>
 <p id="notice" class="info"></p>
 <section id="join" class="card"><h2>Gå med i spelet</h2><p>Skriv ditt namn eller lagnamn.</p><input id="name" maxlength="25" placeholder="T.ex. Team Rock"><p><button id="joinButton">Anslut till spelet</button></p></section>
 <section id="game" class="hidden"><div class="card" id="questionPanel"><div class="row"><strong id="teamName"></strong><strong id="points" class="tag"></strong></div><div id="badges" class="categoryDots"></div><div id="content"></div></div><div class="card" id="scorePanel"><h2>Ställning</h2><div id="scores"></div></div></section>
 <audio id="answerMusic" src="/music" preload="none" loop></audio>
+<div id="finishSplash" role="status" aria-live="polite"><div class="cup">🏆</div><h1>MÅLGÅNG!</h1><div id="finishText"></div><p>Övriga fortsätter om placeringarna</p></div>
 <script>
 const $=id=>document.getElementById(id);const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let lastMusicRound=-1;
@@ -52,7 +56,14 @@ async function relationAnswer(answer){
 async function bet(n){try{await post('/bet',{id:teamId,bet:n});msg('Satsningen är låst!');await poll();}catch(e){msg(e.message)}}
 async function answer(a){try{await post('/answer',{id:teamId,answer:a});msg('Svaret är registrerat. Rättningen kommer när tiden är slut.');await poll();}catch(e){msg(e.message)}}
 function submitNumber(){answer($('numberAnswer').value.trim())}
+function showFinishSplash(s){
+ const live=(s.newPlacements||[]).length>0 && (Date.now()+offset)<(s.celebrationEnds||0);
+ const splash=$('finishSplash');if(!splash)return;
+ splash.classList.toggle('active',live);
+ if(live)$('finishText').innerHTML=s.newPlacements.map(x=>`<h2>${esc(x.place)}:A PLATS – ${esc(x.name)}</h2><p>${esc(x.points)} poäng • ${esc(x.badges)}/3 kategorier</p>`).join('');
+}
 function display(s){
+ showFinishSplash(s);
  const you=s.you;
  if(!you){document.body.classList.remove('question-active');$('join').classList.remove('hidden');$('game').classList.add('hidden');return;}
  document.body.classList.toggle('question-active', s.phase==='question' && !you.qualified);
