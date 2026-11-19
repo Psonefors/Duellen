@@ -11,20 +11,23 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Hämta projektet
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-java@v4
+      - name: Installera Java 21
+        uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '21'
 
-      - uses: subosito/flutter-action@v2
+      - name: Installera Flutter
+        uses: subosito/flutter-action@v2
         with:
           channel: stable
 
-      
       - name: Ordna projektfiler
         run: |
+          set -e
           mkdir -p lib assets/web assets/data assets/audio
           cp main.dart game.dart question_packs.dart race.dart lib/
           cp player.html assets/web/
@@ -34,8 +37,9 @@ jobs:
       - name: Skapa Android-projekt
         run: flutter create --platforms android --project-name duellen --no-pub .
 
-      - name: Återställ spelkoden
+      - name: Återställ spelkod efter Flutter create
         run: |
+          set -e
           cp main.dart game.dart question_packs.dart race.dart lib/
           rm -rf test
           rm -f analysis_options.yaml
@@ -46,56 +50,73 @@ jobs:
           from pathlib import Path
           p = Path('android/app/src/main/AndroidManifest.xml')
           s = p.read_text()
-          s = s.replace(
-              '<application',
-              '<uses-permission android:name="android.permission.INTERNET" />\n'
-              '<application android:usesCleartextTraffic="true"',
-              1
-          )
+          if 'android.permission.INTERNET' not in s:
+              s = s.replace('<application', '<uses-permission android:name="android.permission.INTERNET" />\n    <application', 1)
+          s = s.replace('<application', '<application android:usesCleartextTraffic="true"', 1) if 'usesCleartextTraffic' not in s else s
           p.write_text(s)
           PY
 
-      - name: Installera paket
+      - name: Installera Flutter-paket
         run: flutter pub get
-        
-      - name: Rätta Android SDK för filimport
+
+      - name: Installera Android API 36
+        run: |
+          yes | "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" --licenses > /dev/null || true
+          "$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager" 'platforms;android-36'
+
+      - name: Rätta Android SDK for app och file_picker
         run: |
           python3 - <<'PY'
           from pathlib import Path
           import re
 
+          def patch(path):
+              src = path.read_text()
+              if path.suffix == '.kts':
+                  patterns = [
+                      (r'(?m)^(\s*)compileSdk\s*=\s*(?:flutter\.compileSdkVersion|\d+)', r'\g<1>compileSdk = 36'),
+                      (r'(?m)^(\s*)compileSdkVersion\s*\(\s*(?:flutter\.compileSdkVersion|\d+)\s*\)', r'\g<1>compileSdk = 36'),
+                  ]
+              else:
+                  patterns = [
+                      (r'(?m)^(\s*)compileSdkVersion\s*(?:=\s*)?(?:flutter\.compileSdkVersion|\d+)', r'\g<1>compileSdkVersion 36'),
+                      (r'(?m)^(\s*)compileSdk\s*(?:=\s*)?(?:flutter\.compileSdkVersion|\d+)', r'\g<1>compileSdk 36'),
+                  ]
+              out = src
+              count = 0
+              for pattern, repl in patterns:
+                  out, n = re.subn(pattern, repl, out)
+                  count += n
+              if not count:
+                  raise RuntimeError(f'Kunde inte hitta compileSdk i {path}. Kontrollera paketversionen.')
+              path.write_text(out)
+              print(f'{path}: compileSdk justerad till 36 ({count} ersättning/ar)')
+
           app = Path('android/app/build.gradle.kts')
-          if app.exists():
-              s = app.read_text()
-              s = re.sub(
-                  r'compileSdk\s*=\s*(?:flutter\.compileSdkVersion|\d+)',
-                  'compileSdk = 36', s)
-              app.write_text(s)
+          if not app.exists():
+              app = Path('android/app/build.gradle')
+          if not app.exists():
+              raise RuntimeError('Hittade inte appens Gradle-fil')
+          patch(app)
 
           cache = Path.home() / '.pub-cache/hosted/pub.dev'
-          files = list(cache.glob('file_picker-*/android/build.gradle'))
-          files += list(cache.glob('file_picker-*/android/build.gradle.kts'))
-          if not files:
-              raise RuntimeError('Hittar inte file_picker i paketcache')
-
-          for p in files:
-              s = p.read_text()
-              s = re.sub(r'compileSdkVersion\s+34\b',
-                         'compileSdkVersion 36', s)
-              s = re.sub(r'compileSdk\s*=\s*34\b',
-                         'compileSdk = 36', s)
-              p.write_text(s)
-              print('Uppdaterad:', p)
+          plugin_files = sorted(cache.glob('file_picker-*/android/build.gradle'))
+          plugin_files += sorted(cache.glob('file_picker-*/android/build.gradle.kts'))
+          if not plugin_files:
+              raise RuntimeError('file_picker hittades inte efter flutter pub get')
+          for plugin in plugin_files:
+              patch(plugin)
           PY
 
-      - name: Kontrollera kod
+      - name: Kontrollera spelkoden
         run: flutter analyze lib --no-fatal-infos --no-fatal-warnings
 
       - name: Bygg APK
         run: flutter build apk --release
 
-      - uses: actions/upload-artifact@v4
+      - name: Publicera APK
+        uses: actions/upload-artifact@v4
         with:
           name: Duellen-APK
           path: build/app/outputs/flutter-apk/app-release.apk
-
+          retention-days: 30
